@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Lisaks ligipääsuõigustele saab muuta ka faili omanikku: kasutajat ja gruppi.
+Lisaks ligipääsuõigustele saab muuta ka faili omanikku: kasutajaid ja gruppi.
 
 <b>Omaniku muutmine</b>
 
