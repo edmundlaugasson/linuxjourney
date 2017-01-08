@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Paljudes olukordades võib tavakasutajal vaja olla kõrgendatud ligipääsu mingitele andmetele ja süsteemiadministraator ei saa alati joosta kohale, et juurkasutaja salasõna sisestada. Kuid õnneks on olemas spetsiaalsed ligipääsuõiguste bitid, mis aitavad seda probleemi lahendada. *Set User ID* (SUID) ehk kasutaja ID seadmine võimaldab kasutaja asemel käivitada programmi selle omaniku õigustes.
+Paljudes olukordades võib tavakasutajal vaja olla kõrgendatud ligipääsu mingitele andmetele ja süsteemiadministraator ei saa alati joosta kohale, et juurkasutaja salasõna sisestada. Kuid õnneks on olemas spetsiaalsed ligipääsuõiguste bitid, mis aitavad seda probleemi lahendada. *Set User ID* (SUID) ehk kasutaja ID seadmine võimaldab kasutaja asemel käivitada programmi selle omaniku õigustes teisel kasutajal, kes pole selle omanik.
 
 Vaatame näidet:
 
@@ -12,7 +12,7 @@ Vaatame näidet:
 $ passwd
 </pre>
 
-Mida see käsk teeb? See muudab mõnda faili kuid kõige olulisem on, et see muudab */etc/shadow* faili. Vaatame seda korraks:
+Mida see käsk teeb? See muudab mõnda faili, kuid kõige olulisem on, et see muudab */etc/shadow* faili. Vaatame seda korraks:
 
 <pre>
 $ ls -l /etc/shadow
@@ -60,6 +60,8 @@ Nagu näha tähistab SUID'd number 4 ja see lisatakse teiste õiguste ette. SUID
 ## Harjutus
 
 Vaadata */etc/passwd* õigusi detailselt. Mida veel võib märgata? Failid, millele on seatud SUID on teistest kergesti eristatavad.
+
+Uurige järele, kuidas see on teostatud.
 
 ## Küsimus
 
