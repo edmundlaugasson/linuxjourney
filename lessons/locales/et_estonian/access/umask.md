@@ -17,7 +17,7 @@ $ umask 021
 
 Ülemises näites ütleme, et me tahame, et uutele failidele antaks vaikimisi järgmised õigused: Kasutajatel on ligipääs kõigele, kuid gruppidelt võtame ära õiguse kirjutada ja teistelt kasutajatelt võtame ära käivitamise õiguse. Vaikimisi on *umask* enamustel Linuxitel 022, mis tähendab kõiki õigusi kasutajale, kuid grupil ja teistel kasutajatel puudub kirjutamisõigus.
 
-Teiste sõnadega võetakse *umask*'i puhul aluseks vaikimisi õigused kataloogide puhul 777 ja failide osas 666 ning *umask* väärtus lahutatakse nendest ja saadakse reaalsed õigused.
+Teiste sõnadega võetakse *umask*'i puhul aluseks vaikimisi õigused kataloogide puhul 777 ja failide osas 666 ning *umask* väärtus lahutatakse nendest ja  nii saadakse reaalsed õigused.
 Näiteks *umask*'i väärtuse 022 puhul:
 * kataloogiõigused: 777 – 022 = 755
 * failiõigused: 666 – 022 = 644
@@ -32,7 +32,7 @@ Kokkuvõttes *umask*'i kaheksandväärtused ja neile vastavad (allesjäävad) õ
 * 6 : ainult käivitamine
 * 7 : õigused puuduvad
 
-Kui *umask* käsk sisestada, antakse vaikimisi õigused kõikidele uutele failidele, mis luuakse. Kui aga on soov, et sätted oleksid püsivad, tuleb muuta faili:
+Kui *umask* käsk sisestada, antakse vaikimisi õigused (meenutage, millised) kõikidele uutele failidele, mis luuakse. Kui aga on soov, et sätted oleksid püsivad, tuleb muuta faili:
 * globaalne (kõik kasutajad): <i>/etc/profile</i>
 * hetkel vaikimisi sisseloginud kasutaja: <i>~/.bashrc</i><br>
 ... ja lisada väärtus, näiteks:
