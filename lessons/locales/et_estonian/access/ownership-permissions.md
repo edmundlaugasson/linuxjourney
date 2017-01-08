@@ -34,7 +34,7 @@ $ sudo chown peeter:vaalad minufail
 
 ## Harjutus
 
-Muuta mõne testfaili omanikku, kasutajad ja gruppi. Pärast aga vaadata õigusi käsuga *ls -l*.
+Muutke mõne testfaili omanikku, kasutajaid ja gruppi. Pärast aga vaadake õigusi käsuga *ls -l*.
 
 ## Küsimus
 
