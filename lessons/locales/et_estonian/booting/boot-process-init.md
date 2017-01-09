@@ -12,11 +12,11 @@ See on traditsiooniline *init*, mis käivitab ja peatab protsesse alglaadimise s
 
 <b>Upstart</b>
 
-Selle *init*'i leiab vanematelt Ubuntu paigaldustelt. Upstart kasutab teenuste ja sündmuste ideed käivitades teenuseid ja teostades teatud tegevusi reaktsioonina sündmustele.
+Selle *init*'i leiab vanematelt Ubuntu paigaldustelt. Upstart kasutab teenuste ja sündmuste ideed, käivitades teenuseid ja teostades teatud tegevusi reaktsioonina sündmustele.
 
 <b>Systemd</b>
 
-See on *init*'i uus eesmärgile orienteeritud standard. Põhimõtteliselt on olemas eesmärk ja *systemd* üritab lahendada eesmärgi sõltuvusi, et seda täita.
+See on *init*'i uus, eesmärgile orienteeritud standard. Põhimõtteliselt on olemas eesmärk ja *systemd* üritab lahendada eesmärgi sõltuvusi, et seda täita.
 
 *Init*'i süsteemide kohta on tulemas terve kursus, kus süveneme neisse kolmesse palju detailsemalt.
 
