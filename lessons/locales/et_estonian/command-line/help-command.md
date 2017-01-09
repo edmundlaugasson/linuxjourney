@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Linuxil on mõned päris head sisemised tööriistad, mis aitavad käsu kasutamise või käsu lippude olemasolu osas. Üks selline tööriist on *help*. See on sisemine bashi käsk, mis pakub abi teiste bashi käskude osas (echo, logout, pwd jne).
+Linuxil on mõned päris head sisemised tööriistad, mis aitavad ja seletavad käsu kasutamise või käsu lippude olemasolu osas. Üks selline tööriist on *help*. See on sisemine bashi käsk, mis pakub abi teiste bashi käskude osas (echo, logout, pwd jne).
 
 
 <pre>$ help echo</pre>
