@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Nüüd kui tundub, et meil on liiga palju faile kogunenud, eemaldaks ehk mõned. Selleks, et faile eemaldada, kasutame *rm* käsku. *Rm* (inglise keeles *remove* ehk eemalda) käsku kasutatakse, et kustutada faile ja katalooge.
+Nüüd, kui tundub, et meil on liiga palju faile kogunenud, eemaldaks ehk mõned. Selleks, et faile eemaldada, kasutame *rm* käsku. *Rm* (inglise keeles *remove* ehk eemalda) käsku kasutatakse, et kustutada faile ja katalooge.
 
 <pre>$ rm fail1</pre>
 
