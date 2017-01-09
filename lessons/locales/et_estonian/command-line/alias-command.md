@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Mõnikord võib muutuda käskude sisestamine sageli korduvaks või on vaja kirjutada väga pikka käsku mitu korda. Sellisel juhul oleks parem kasutada aliast. Käsule aliase loomiseks peab lihtsalt täpsustama aliase nime ja seostama selle käsuga.
+Mõnikord võib muutuda käskude sisestamine sageli korduvaks või on vaja kirjutada väga pikka käsku mitu korda. Sellisel juhul oleks parem kasutada aliast. Käsule aliase loomiseks peab lihtsalt määrama aliase nime ja seostama selle käsuga.
 
 <pre>$ alias foobar='ls -la'</pre>
 
@@ -10,7 +10,7 @@ Nüüd võid ls -ls asemel kirjutada foobar ja see käivitab ülakomade vahel ol
 
 <pre>~/.bashrc</pre>
 
-või mõnda teise sarnasesse faili kui soovitakse, et see säiliks ka pärast taaskäivitamist. Tavaliselt on ~/.bashrc failis olemas juba mõned aliased:
+või mõnda teise sarnasesse faili, kui soovitakse, et need säiliksid ka peale taaskäivitamist. Tavaliselt on ~/.bashrc failis olemas juba mõned aliased:
 <pre>
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -29,7 +29,7 @@ fi
 </pre>
 
 Seega on mõistlikum kasutaja aliased kirjutada eraldi faili ~/.bash_aliases
-Kui see fail kopeerida ka /etc/skel/ kataloogi siis on ka kõikidel uutel või esimest korda sisse logivatel domeenikasutajatel sama aliaste fail olemas.
+Kui see fail kopeerida ka /etc/skel/ kataloogi, siis on ka kõikidel uutel või esimest korda sisse logivatel domeenikasutajatel sama aliaste fail olemas.
 
 Aliase saab eemaldada unalias käsuga:
 
