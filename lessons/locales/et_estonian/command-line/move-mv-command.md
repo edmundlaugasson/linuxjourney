@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Seda käsku asutatakse failide liigutamiseks, aga ka ümbernimetamiseks. Lippude ja toimimise poolest on see cp käsule üsna sarnane.
+Seda käsku asutatakse failide liigutamiseks, aga ka ümbernimetamiseks. Lippude ja toimimise poolest on see käsule cp üsna sarnane.
 
 Faile saab ümber nimetada nii:
 
