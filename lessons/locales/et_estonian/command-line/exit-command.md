@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Hästi tehtud - baasteadmised on läbitud! Me oleme seda kõike aga ainult kergelt puudutanud. Nüüd kui on õpitud roomama siis järgmisel kursusel hakatakse kõndima.
+Hästi tehtud - baasteadmised on läbitud! Me oleme seda kõike aga ainult kergelt puudutanud. Nüüd kui on õpitud "roomama" siis järgmistel kursustel hakatakse kõndima.
 
 Hetkel võib aga endale õlale patsutada ja natuke puhata. Et kestast väljuda, kasuta käsku exit
 
