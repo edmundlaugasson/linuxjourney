@@ -10,7 +10,7 @@ See kirjeldus pärineb iga käsu man leheküljelt. Kui rakendada *whatis cat*, s
 
 ## Harjutus
 
-Kasutada *whatis* käsku *ls* peal.
+Kasutage *whatis* käsku *ls* uurimiseks.
 
 ## Küsimus
 
