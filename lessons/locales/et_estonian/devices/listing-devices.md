@@ -39,7 +39,7 @@ Riistvara info (soovitav käivitada superkasutajana):
 
 ## Harjutus
 
-Proovida kõiki õpitud käske ja tutvuda väljundiga.
+Proovige kõiki õpitud käske ja tutvuge väljundiga.
 
 ## Küsimus
 
