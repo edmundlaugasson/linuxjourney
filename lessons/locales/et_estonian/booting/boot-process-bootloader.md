@@ -12,12 +12,12 @@ Alglaaduri peamised kohustused on:
 
 Kõige tavalisem Linuxi alglaadur on GRUB, kuid on veel palju teisi nagu LILO, efilinux, coreboot, SYSLINUX jt. Sellel kursusel aga piirdutakse GRUB'iga.
 
-Alglaaduri ülesanne on laadida tuum, kuid kust seda leida? Selleks peab vaatama tuuma parameetreid. Parameetrid leiab GRUB'i menüüst, kui hoida all süsteemi käivitumisel *SHIFT* klahvi GRUB'i menüü avamiseks (kui arvutis on vaid Linux) ja soovitud menüükirje muutmiseks 'e' klahvi. Kui kasutaja ei ole ka GRUB'i, pole tarvis muretseda, aglaadimise parameetrid käikse selles peatükis üle:
+Alglaaduri ülesanne on laadida tuum, kuid kuidas ja kust seda leida? Selleks peab vaatama tuuma etteantud parameetreid. Parameetrid leiab GRUB'i menüüst, kui hoida all süsteemi käivitumisel *SHIFT* klahvi GRUB'i menüü avamiseks (kui arvutis on vaid Linux) ja soovitud menüükirje muutmiseks 'e' klahvi. Kui kasutajal ei ole ka GRUB'i, pole tarvis muretseda, aglaadimise parameetrid käikse selles peatükis üle:
 
 <ul>
 <li>initrd - Täpsustab algse RAM ketta asukoha (täpsemalt järgises peatükis)</li>
 <li>BOOT_IMAGE  - tuuma kujutise faili asukoht</li>
-<li>root -  Juurfailisüsteemi asukoht, tuum otsib sellest init'it. Seda esindab tihtipeale selle UUID või seadme nimi /dev/sda1.</li>
+<li>root -  Juurfailisüsteemi asukoht, tuum otsib sellest init'it. Seda esindab tihtipeale selle UUID või seadme nimi, näiteks /dev/sda1.</li>
 <li>ro - Standardne parameeter, mis haagib failisüsteemi külge vaid loetavana.</li>
 <li>quiet - See lisatakse, et ei kuvataks teateid selle kohta, mis algaadimise ajal taustal toimub.</li>
 <li>splash - Lubab kuvada käivitusekraani.</li>
