@@ -6,7 +6,7 @@ Mõned levinumad seadmete nimed:
 
 <b>SCSI seadmed</b>
 
-Massmäluseadmed kasutavad kõige tõenäolisemalt SCSI (hääldatakse "skazi") protokolli. SCSI tähendab *Small Computer System Interface*, mis tõlkes oleks väikearvutisüsteemi liides. Tegu on protokolliga, mida kasutatakse välisseadmete nagu kettad, printerid, skannerid ja muu ühendamiseks arvutiga. Eksisteerivad SCSI seadmed, mida kaasajal tegelikult enam ei kasutata, Linux aga samastab SCSI kettad */dev* kataloogis füüsiliste kõvaketastega, mida nimetatakse ka plokkseadmeteks (*block device*) ja nende vaatamiseks käsk *lsblk*. Neid esindab eesliide *sd(SCSI disk):*
+Massmäluseadmed kasutavad kõige tõenäolisemalt SCSI (hääldatakse "skazi") protokolli. SCSI tähendab *Small Computer System Interface*, mis tõlkes oleks väikearvutisüsteemi liides. Tegu on protokolliga, mida kasutatakse välisseadmete nagu kettad, printerid, skännerid ja muu, ühendamiseks arvutiga. Eksisteerivad SCSI seadmed, mida kaasajal tegelikult enam ei kasutata, Linux aga samastab SCSI kettad */dev* kataloogis füüsiliste kõvaketastega, mida nimetatakse ka plokkseadmeteks (*block device*) ja nende vaatamiseks käsk *lsblk*. Neid esindab eesliide *sd(SCSI disk):*
 
 Tavapärased SCSI seadmefailid:
 
@@ -18,7 +18,7 @@ Tavapärased SCSI seadmefailid:
 
 <b>Pseudoseadmed</b>
 
-Kordame, et pseudoseadmed ei ole tegelikult füüsiliselt arvutiga ühendatud ning enamik pseudoseadmeid on tähemärgiseadmed:
+Kordame, et pseudoseadmed ei ole tegelikult füüsiliselt arvutiga ühendatud ning et enamik pseudoseadmeid on tähemärgiseadmed:
 
 <ul>
 <li><i>/dev/zero</i> - võtab vastu ja heidab kogu sisendi kõrvale, väljundiks on NULL (nullväärtus) baitide jada</li>
