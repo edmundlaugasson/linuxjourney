@@ -12,7 +12,7 @@ Tahad kasutada eelmist käsku ilma seda uuesti trükkimata? Kasuta !!. Kui kirju
 
 Veel üks *history* otsetee on *ctrl-R*. See on tagurpidine otsingu käsk. Kui klaviatuuril vajutati *ctrl-R* ja hakkati kirjutama osa käsust, näitab see sulle võimalikke vasteid ja nende vahel saab liikuda kui vajutad uuesti *ctrl-R*. Kui soovitud käsk leitud, vajutada lihtsalt Enter.
 
-Kas meie terminali aken hakkab natuke liiga kirjuks muutuma? Koristaks pisut. Kasuta *clear* või *ctrl-L* käsku, et oma kuva ära tühjendada.
+Kas meie terminali aken hakkab natuke liiga kirjuks muutuma? Koristaks pisut. Kasuta *clear* või *ctrl-L* käsku, et oma kuva tühjendada.
 
 <pre>$ clear</pre>
 
