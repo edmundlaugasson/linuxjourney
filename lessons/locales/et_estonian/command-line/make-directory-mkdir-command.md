@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Meil läheb vaja kataloogi kõikide nende failide jaoks, millega tegelenud oleme. *Mkdir* (loo uus kataloog) käsk on kasulik, sest see teeb uue kataloogi kui seda veel ei ole. Korraga saab luua isegi mitu kataloogi.
+Meil läheb vaja kataloogi kõikide nende failide jaoks, millega tegelenud oleme. *Mkdir* (loo uus kataloog) käsk on kasulik, sest see teeb uue kataloogi, kui seda veel ei ole. Korraga saab luua isegi mitu kataloogi.
 
 <pre>$ mkdir raamatud maalid</pre>
 
