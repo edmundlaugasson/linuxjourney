@@ -13,9 +13,9 @@ Käsk kopeerib backup.img sisu seadmele /dev/sdb. Andmeid kopeeritakse 1024 baid
 <ul>
 <li>if=fail - Sisendfail, standardsisendi asemel tuleb sisend lugeda failist</li>
 <li>of=fail - Väljundfail, väljund kirjutatakse standardväljundi asemel faili</li>
-<li>bs=bytes - Bloki suurus, määrab kui palju baite andmetest korraga loetakse ja kirjutatakse. Kasutada võib erinevaid suurusi märkides kilobaidi kohta k, megabaidi kohta m jne. 1024 baiti on 1k.</li>
-<li>count=number - kopeeritavate blokkide arv.</li>
-</ul>
+<li>bs=bytes - Ploki suurus, mis määrab kui palju baite andmetest korraga loetakse ja kirjutatakse. Kasutada võib erinevaid suurusi märkides kilobaidi kohta k, megabaidi kohta m jne. 1024 baiti on 1k.</li>
+<li>count=number - kopeeritavate plokkide arv.</li>
+</ul> 
 
 Mõned *dd* käsud kasutavad loendurit (*count*). Kui on soov kopeerida 1 megabaidine fail siis ilmselt võiks ta ka peale kopeerimist olla kuvatud kui 1 megabait. Ütleme, et sisestatakse järgmine käsk:
 
@@ -23,7 +23,7 @@ Mõned *dd* käsud kasutavad loendurit (*count*). Kui on soov kopeerida 1 megaba
 
 backup.img fail on 10M, käsk ütleb aga, et kopeerida tuleb 1M kaks korda, mis tähendab, et kopeeritakse vaid 2M, mis tähendab, et kopeeritud andmed ei ole täielikud. Loendur *count* võib päris paljudes olukordades kasulikuks osutuda, kuid kui eesmärk on lihtsalt andmete kopeerimine võib *count*'i ja isegi *bs*'i vabalt vahele jätta. Kui eesmärk on tõsine andmete ülekandmise optimeerimine siis tasub alles hakata neid variante kaaluma.
 
-*dd* on äärmisel võimas, sellega võib teha varukoopiaid ükskõik millest, sealhulgas terved kettad, kettakujutiste taastamine ja palju muud. Ettevaatus kulub ära, sest võimsa tööriista kasutamine võib kätte maksta, kui ei olda oma tegevustes päris kindel.
+*dd* on äärmisel võimas, sellega võib teha varukoopiaid ükskõik millest, sealhulgas terved kettad, kettakujutiste taastamine ja palju muud. Ettevaatus kulub ära, sest võimsa tööriista kasutamisel  võib ettevaatamatus kätte maksta, kui ei olda oma tegevustes päris kindel.
 
 ## Harjutus
 
