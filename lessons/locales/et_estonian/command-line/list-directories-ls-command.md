@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Nüüd, kus osatakse süsteemis ringi liikuda, kuidas saab teada, kuhu üldse on võimalik minna? Hetkel me eksleme justkui pimeduses. Meil on võimalik kasutada imelist *ls* käsku, et kuvada kataloogide sisu. *Ls* käsk kuvab vaikimisi kõik jooksvas kataloogis asuvad kataloogid ja failid, kuid võib ka täpsustada, millise asukoha sisu näha soovitakse.
+Nüüd, kus osatakse süsteemis ringi liikuda, on hea teada, kuhu üldse on võimalik minna? Hetkel me justkui eksleme kataloogides. Meil on võimalik kasutada selleks *ls* käsku, et kuvada kataloogide sisu. *Ls* käsk kuvab vaikimisi kõik jooksvas kataloogis asuvad kataloogid ja failid, kuid võib ka täpsustada, millise asukoha sisu näha soovitakse.
 
 <pre>$ ls
 $ ls /home/pete</pre>
@@ -28,7 +28,7 @@ drwxr-x--- 2 pete penguingroup   4096 Jul 27 12:41   Avalik
 drwxr-x--- 2 pete penguingroup   4096 Jul 27 12:41   Mallid
 drwxr-x--- 2 pete penguingroup   4096 Jul 27 12:41   Videod</pre>
 
-Käskudel on funktsionaalsuse lisamiseks lipud (või argumendid, parameetrid, valikud - kuidas parasjagu meeldib neid nimetada). Märkasid, et lisasime -a ja -l? Neid saab ka koos kasutada lisades käsule -la. Lippude järjekorrast oleneb, mis järjekorras käsku täidetakse. Enamus ajast ei ole sellel erilist tähendust, nii et võib kirjutada ka -al ja see töötab sellegipoolest.
+Käskudel on funktsionaalsuse lisamiseks lipud (või argumendid, parameetrid, valikud - kuidas parasjagu meeldib neid nimetada). Märkasite, et lisasime -a ja -l? Neid saab ka koos kasutada lisades käsule -la. Lippude järjekorrast oleneb, mis järjekorras käsku täidetakse. Enamus ajast ei ole sellel erilist tähendust, nii et võib kirjutada ka -al ja see töötab samuti.
 
 <pre>$ ls -la</pre>
 
