@@ -2,11 +2,11 @@
 
 ## Tunni sisu
 
-Nüüd kui mulle tundub, et meil on liiga palju faile, eemaldaks mõned. Selleks, et faile eemaldada, kasutame *rm* käsku. *Rm* (inglise keeles *remove* ehk eemalda) käsku kasutatakse, et kustutada faile ja katalooge.
+Nüüd kui tundub, et meil on liiga palju faile kogunenud, eemaldaks ehk mõned. Selleks, et faile eemaldada, kasutame *rm* käsku. *Rm* (inglise keeles *remove* ehk eemalda) käsku kasutatakse, et kustutada faile ja katalooge.
 
 <pre>$ rm fail1</pre>
 
-**Ole *rm* kasutamisega ettevaatlik**, ei ole olemas maagilist prügikasti kust hiljem eemaldatud faile välja õngitseda. Kui nad on läinud, siis on nad igaveseks läinud, seega ole tähelepanelik.
+**Ole *rm* kasutamisega ettevaatlik**, Linuxis, erinevalt MS Windovsist, ei ole olemas maagilist prügikasti, kust hiljem eemaldatud faile välja õngitseda. Kui nad on läinud, siis on nad igaveseks läinud, seega ole tähelepanelik.
 
 Õnneks on üles seatud turvameetmed, et päris igaüks ei saaks eemaldada olulisi faile. Kirjutamise vastu kaitstud failid küsivad kinnitust enne, kui nad ära kustutada. Samuti ei ole kirjutamise vastu kaitstud kataloogi niisama lihtne eemaldada.
 
