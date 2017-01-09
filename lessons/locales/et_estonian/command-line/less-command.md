@@ -4,7 +4,7 @@
 
 Kui vaadata faile, mis on suuremad kui tavapärane väljundikuva, siis ilmselt teeb korraga vähem teksti kuvamine lugemise palju kergemaks. (On ka olemas käsk *more*, mis teeb midagi sarnast.) Kuna teksti kuvatakse lehekülgede kaupa, saab ka liikuda läbi teksti lehekülg haaval.
 
-Lase käia, proovi vaadata faili sisu käsuga *less*. Kui käsk on käivitatud, saab failis navigeerumiseks kasutada veel teisigi käske.
+Ja palun, proovige vaadata faili sisu käsuga *less*. Kui käsk on käivitatud, saab failis navigeerumiseks kasutada veel teisigi käske.
 
 <pre>$ less /home/pete/Dokumendid/tekst1</pre>
 
@@ -21,7 +21,7 @@ Kasutada järgmisi käske *less*'is navigeerumiseks:
 
 ## Harjutus
 
-Kasuta faili peal *less* käsku, see järel liikuda seal ringi nooleklahvidega ning *pgup* ja *pgdn* klahvidega. Proovida otsida mingit sõna. Liikuda kiirelt faili algusesse või lõppu.
+Kasutage faili vaatamiseks *less* käsku, seejärel liikuge seal ringi nooleklahvidega ning *pgup* ja *pgdn* klahvidega. Proovige otsida mingit sõna. Liikuge kiirelt faili algusesse või lõppu.
 
 ## Küsimus
 
