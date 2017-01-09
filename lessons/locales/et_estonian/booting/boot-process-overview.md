@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Nüüd kui on juba olemas üsna hea ülevaade olulisematest Linuxi komponentidest, on aeg kõik tükikesed kokku panna ja tutvustada süsteemi alglaadimist. Kui arvuti käivitada, teeb see igasuguseid asju. Näiteks ilmub logokuva, erinevad sõnumid vilksavad läbi ja lõpuks ilmub ette sisselogimise kuva. Tegelikult juhtub päris palju asju selle aja jooksul, mis mahub sisselülitusnupu vajutuse ja sisselogimise vahele ning see ongi käesoleva kursuse teema.
+Nüüd, kui on juba olemas üsna hea ülevaade olulisematest Linuxi komponentidest, on aeg kõik tükikesed kokku panna ja tutvustada süsteemi alglaadimist. Kui arvuti käivitada, teeb see mitmesuguseid toiminguid. Näiteks, kuvarile ilmub logokuva, erinevad sõnumid vilksavad läbi ja lõpuks ilmub ette sisselogimise kuva. Tegelikult juhtub päris palju toiminguid selle aja jooksul, mis mahub sisselülitusnupu vajutuse ja sisselogimise vahele ning see ongi käesoleva kursuse teema.
 
 Linuxi alglaadimisprotsessi võib jagada neljaks lihtsaks etapiks:
 
@@ -16,7 +16,7 @@ Alglaaduri ülesanne on laadida mällu operatsioonisüsteemi tuum ning seejärel
 
 <b>3. Tuum </b>
 
-Kohe kui tuum on laetud tuvastab see seadmed ja mälu. Tuuma peamine ülesanne on laadida *init* protsess.
+Kohe, kui tuum on laetud, tuvastab see seadmed ja mälu. Tuuma peamine ülesanne on laadida *init* protsess.
 
 <b>4. Init</b>
 
