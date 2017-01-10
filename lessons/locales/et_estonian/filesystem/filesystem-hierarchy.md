@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Praeguseks võiks juba kataloogisüsteem üsna tuttav olla. Kui see aga nii ei ole siis peagi saab kõik selgeks. Kuigi failisüsteemid erinevad üksteisest struktuuri poolest, peaksid nad suuremal määral siiski alluma [failisüsteemi hierarhia standardile](http://refspecs.linuxfoundation.org/fhs.shtml).
+Praeguseks võiks kataloogisüsteem juba üsna tuttav olla. Kui see aga nii ei ole, siis peagi saab kõik selgeks. Kuigi failisüsteemid erinevad üksteisest struktuuri poolest, peaksid nad suuremal määral siiski alluma [failisüsteemi hierarhia standardile](http://refspecs.linuxfoundation.org/fhs.shtml).
 
 Vaatame käsuga <b>ls -l /</b> juurkataloogi sisu. Kuigi võib esineda väikeseid erandeid, peaks see välja nägema enamasti selline:
 
@@ -24,12 +24,12 @@ Vaatame käsuga <b>ls -l /</b> juurkataloogi sisu. Kuigi võib esineda väikesei
 <li>/srv - Asukohapõhised andmed.</li>
 <li>/tmp - Ajutiste failide hoidla. </li>
 <li>/usr - Selle kataloogi nimi ei ole eriti hästi õnnestunud, tavaliselt ei hoita siin kasutajate faile nagu kodukataloogis. See on mõeldud kasutaja paigaldatud tarkvarale ja haldusvahenditele kuid tõesti, ka isiklike kataloogide loomine sinna ei ole keelatud. Selles kataloogis on olulised alamkataloogid nagu /usr/bin, /usr/local jne.</li>
-<li>/var - Muutujate kataloogi kasutatakse süsteemi sisse logimisel, kasutuajate jälgimisel, vahemälu jaoks jpm. Põhimõtteliselt hoitakse siin kõike, mis on pidevas muutumises.</li>
+<li>/var - Muutujate kataloogi kasutatakse süsteemi sisse logimisel, kasutajate jälgimisel, vahemälu jaoks jpm. Põhimõtteliselt hoitakse siin kõike, mis on pidevas muutumises.</li>
 </ul>
 
 ## Harjutus
 
-Vaadata */usr* kataloogi sisse ja tutvuda seal hoitava informatsiooniga.
+Vaadake */usr* kataloogi sisse ja tutvuge seal hoitava informatsiooniga.
 
 ## Küsimus
 
