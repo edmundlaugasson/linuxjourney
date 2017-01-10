@@ -3,7 +3,7 @@
 ## Tunni sisu
 
 <b>Ülevaade</b>
-Arch on kerge ja paindlik 100% kogukonna poolt arendatud Linuxi distributsioon. Sarnaselt Debianile lastakse Arch Linuxit välja jooksvalt ja selliselt, et olulistest uuendustest kasvab lõpuks stabiilne väljalase. Arch tuleb endale iseseisvalt selgeks õppida, et süsteemi ja selle funktsioone mõista. Kuid vastutasuks antakse sulle täielik ja lõplik kontroll.
+Arch on kerge ja paindlik, täielikult ja ainult kogukonna poolt arendatud Linuxi distributsioon. Sarnaselt Debianile uuendatakse Arch Linuxit jooksvalt ja selliselt, et olulistest uuendustest kasvab lõpuks stabiilne väljalase. Arch tuleb endale iseseisvalt selgeks õppida, et süsteemi ja selle funktsioone mõista. Kuid vastutasuks antakse sulle täielik ja lõplik kontroll.
 
 <b>Paketihaldus</b>
 Kasutab pakettide paigaldamiseks, uuendamiseks ja haldamiseks omaenda paktihaldurit Pacman.
