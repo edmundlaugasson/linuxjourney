@@ -60,11 +60,11 @@ Kasutaja teab, et tema failid on kusagil ketta peal. Kahjuks aga neid ilmselt ei
 
 ## Harjutus
 
-Tutvuda erinevate failide infosõlmedega. Millised luuakse tavaliselt esimesena?
+Tutvude erinevate failide infosõlmedega. Millised luuakse tavaliselt esimesena?
 
 ## Küsimus
 
-Kuidas kuvada, mitu infosõlme veel süsteemis järgi on?
+Kuidas kuvada, mitu infosõlme veel süsteemis kasutamiseks vabad on?
 
 ## Vastus
 
