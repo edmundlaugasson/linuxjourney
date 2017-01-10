@@ -49,7 +49,7 @@ www.google.com.         5       IN      A       74.125.239.148
 
 ## Harjutus
 
-Lugeda dig'i man-lehekülge.
+Lugege dig'i man-lehekülge.
 
 ## Küsimus
 
