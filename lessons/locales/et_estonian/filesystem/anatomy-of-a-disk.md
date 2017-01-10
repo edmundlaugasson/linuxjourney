@@ -2,23 +2,23 @@
 
 ## Tunni sisu
 
-Kõvakettaid saab jagada kettajagudeks, luues nõnda blokkseadmeid. Meenutame seadmeid */dev/sda1* ja */dev/sda2*, */dev/sda* on üks terve ketas kuid */dev/sda1* on selle ketta esimene jagu. Kettajaod on äärmiselt kasulikud andmete eraldamiseks. Kui on tarvis mingit konkreetset failisüsteemi kasutada, võib kerge vaevaga luua kettale jao selle asemel, et kogu kettale seda ühte failisüsteemi rakendada.
+Kõvakettaid saab jagada kettajagudeks, luues nõnda plokkseadmeid. Meenutame seadmeid */dev/sda1* ja */dev/sda2*, */dev/sda* on üks terve ketas kuid */dev/sda1* on selle ketta esimene jagu. Kettajaod on äärmiselt kasulikud andmete eraldamiseks. Kui on tarvis mingit konkreetset failisüsteemi kasutada, võib kerge vaevaga luua kettale jao selle asemel, et kogu kettale seda ühte failisüsteemi rakendada.
 
 <b>Kettajagude tabel</b>
 
-Igal kettal on kettajagude tabel, mis edastab süsteemile infot ketta jaotamise kohta. Seal on info selle kohta, kus kettajagu algab ja lõppeb, millised jaod on alglaaditavad, millised sektorid on millistele jagudele määratud jne. Kasutatakse kahte põhilist kettajagude tabelit: *Master Boot Record* (MBR) ja *GUID Partition Table* (GPT).
+Igal kettal on kettajagude tabel, mis edastab süsteemile infot ketta jaotamise kohta. Seal on info selle kohta, kus kettajagu algab ja lõpeb, millised jaod on alglaaditavad, millised sektorid on millistele jagudele määratud jne. Kasutatakse kahte põhilist kettajagude tabelit: *Master Boot Record* (MBR) ja *GUID Partition Table* (GPT).
 
 <b>Kettajagu ehk partitsioon</b>
 
-Kettajagudest koosnevad kettad võimaldavad organiseerida andmeid. Kui kettas on mitmeks osaks jaotatud, ei tohi need omavahel kattuda. Kui kettal on ala, mis ei kuulu kettajao alla, nimetatakse seda vabaks alaks. Kettajao tüüp sõltub kettajagude tabelist. Kettajaol võib olla failisüsteem või võib seda kasutada teisel otstarbel, näiteks  saalimiseks (sellest räägitakse ka varsti).
+Kettajagudest koosnevad kettad võimaldavad organiseerida andmeid. Kui kettas on mitmeks osaks jaotatud, ei tohi need omavahel kattuda. Kui kettal on ala, mis ei kuulu kettajao alla, nimetatakse seda vabaks alaks. Kettajao tüüp sõltub kettajagude tabelist. Kettajaol võib olla failisüsteem või võib seda kasutada tmuul otstarbel, näiteks  saalimiseks (sellest räägitakse ka varsti).
 
 <i>MBR (Master Boot Record)</i>
 
 <ul>
-<li>Traditsiooniline kettajagude tabel, kasutatud kui standardit</li>
+<li>Traditsiooniline kettajagude tabel, kasutatud kui standard</li>
 <li>Võimaldab primaarseid, laiendatud ja loogilisi kettajagusid</li>
-<li>MBR'i piiranguks on kuni neli primaarset kettajagu, peavad asetsema järjest</li>
-<li>Täiendavaid kettajagusid saab luua muutes viimase primaarse kettajao laiendatuks (lubatud on ainult üks laiendatud kettajagu). Selle sisse saab omakorda luua kuni 128 loogilist kettajagu (peavad asetsema järjest).</li> 
+<li>MBR'i piiranguks on kuni neli primaarset kettajagu, mis peavad asetsema järjest</li>
+<li>Täiendavaid kettajagusid saab luua, muutes viimase primaarse kettajao laiendatuks (lubatud on ainult üks laiendatud kettajagu). Selle sisse saab omakorda luua kuni 128 loogilist kettajagu (peavad asetsema järjest).</li> 
 <li>Toetatud on kuni 2 terabaidised kettad</li>
 </ul>
 
@@ -42,7 +42,7 @@ https://en.wikipedia.org/wiki/Binary_prefix
 Eelmisest peatükist on teada, et failisüsteem on failide ja kataloogide organiseeritud kogum. Kõige lihtsamalt võib seda vaadelda kui kooslust andmebaasist, mis haldab faile ja andmed ise. Kuid nüüd süveneme sellesse väheke detailsemalt.
 
 <ul>
-<li>Alglaadimise plokk - See asub failisüsteemi esimestes sektorites. Seda otseselt ei kasutata, vaid hoiab informatsiooni operatsiooni alglaadimise jaoks. Selliseid plokke on operatsioonisüsteemil tarvis vaid ühte. Kui partitsioone on rohkem, leidub ka neil alglaadimise plokk kuid paljusid ei kasutata.</li>
+<li>Alglaadimise plokk - See asub failisüsteemi esimestes sektorites. Seda otseselt ei kasutata, vaid seal on salvestatud informatsioon operatsiooni alglaadimise jaoks. Selliseid plokke on operatsioonisüsteemil tarvis vaid ühte. Kui partitsioone on rohkem, leidub ka neil alglaadimise plokk kuid paljusid ei kasutata.</li>
 <li>Superplokk - üksik plokk, mis järgneb kohe alglaadimisplokile. Sisaldab infot failisüsteemi kohta: infosõlmetabel, loogiliste jagude ja failisüsteemi suurus. </li>
 <li>Infosõlmede tabel - sellest võib mõelda kui andmebaasist, mis haldab andmeid (ei tasu muretseda, sellest tuleb terve peatükk). Iga faili või kataloogi kohta on selles tabelis unikaalne kirje. Failide kohta hoitakse erinevat informatsiooni. </li>
 <li>Andmeplokid - failide ja kataloogide tegelikud andmed </li>
@@ -79,7 +79,7 @@ Number  Start   End     Size     File system  Name        Flags
 
 ## Harjutus
 
-Sisestada käsk <b>parted -l</b> ja hinnata tulemust.
+Sisestage käsk <b>parted -l</b> ja hinnake tulemust.
 
 ## Küsimus
 
