@@ -2,9 +2,9 @@
 
 ## Tunni sisu
 
-Järgnevalt harjutame failisüsteemi praktilist poolt USB pulga peal. Ei tasu muretseda kui endal ühte käepärast ei ole, võib ka lihtsalt kaasa mõelda.
+Järgnevalt harjutame failisüsteemi praktilist poolt USB pulga peal. Kui vaba mälupulka käepärast ei ole, võib ka lihtsalt kaasa mõelda.
 
-Esiteks on tarvis tekitada kettajaod. Kettajagude loomisega tasub olla **eriti ettevaatlik** kuna sellega võidakse kustutada kettajagu, mis sisaldab olulisi andmeid. Samuti uue kettajagude tabeli loomisega kustuvad kõik kettajaod ja seal olnud andmed. **Seetõttu tasub enne kettajagudega tegelemist teha andmetest varukoopia**. Mõned programmid salvestavad tehtud muudatused automaatselt, kinnitust küsimata. Algajatel tasub valida selline programm, mis kohe tehtud muudatusi ei salvesta. Ohutum on eelnevalt näiteks mõnes virtuaalarvutis järgi proovida ja kui ollakse juba kindlad siis tasub alles päris arvutis ketaste jagamise juurde minna. Virtuaalarvutisse (nt [VirtualBox](https://www.virtualbox.org/)'i keskkonnas) on lihtne lisada virtuaalseid kõvakettaid ja neid siis harjutamise mõttes jagudeks jagada.
+Esiteks on tarvis tekitada kettajaod. Kettajagude loomisega tasub olla **eriti ettevaatlik** kuna sellega võidakse kustutada kettajagu, mis sisaldab olulisi andmeid. Samuti tuleb arvestada tõsiasjaga, et uue kettajagude tabeli loomisega kustuvad kõik senised kettajaod ja seal olnud andmed. **Seetõttu tasub enne kettajagudega tegelemist teha andmetest varukoopia**. Mõned programmid salvestavad tehtud muudatused automaatselt, kinnitust küsimata. Algajatel tasub valida selline programm, mis kohe tehtud muudatusi ei salvesta. Ohutum on eelnevalt näiteks mõnes virtuaalarvutis järgi proovida ja kui ollakse juba kindlad siis tasub alles päris arvutis ketaste jagamise juurde minna. Virtuaalarvutisse (nt [VirtualBox](https://www.virtualbox.org/)'i keskkonnas) on lihtne lisada virtuaalseid kõvakettaid ja neid siis harjutamise mõttes jagudeks jagada.
 
 Olemasolevate ja loodud kettajagude vaatamiseks sobib ka *lsblk*. Failisüsteeme näeb ka *lsblk -f* abil.
 
@@ -82,7 +82,7 @@ Lisainfo<br>
 
 ## Harjutus
 
-Luua USB kettale kettajaod nõnda, et pool kettast oleks ext4 ja teine pool vaba.
+Looge USB kettale kettajaod nõnda, et pool "kettast" oleks ext4 ja teine pool vaba.
 
 ## Küsimus
 
