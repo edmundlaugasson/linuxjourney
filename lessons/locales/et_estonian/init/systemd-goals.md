@@ -50,11 +50,11 @@ Mõned käsud, mida saab kasutada *systemd* üskustega:
 
 <pre>$ sudo systemctl disable networking.service</pre>
 
-Kordame, et *systemd* sügavused on alles paljastamata, mistõttu tuleb õpilasel ise juurde õppida.
+Kordame, et *systemd* sügavused on alles paljastamata, mistõttu tuleb igaühel vajalik ise juurde õppida.
 
 ## Harjutus
 
-Kuvada teenuste olekuid, käivitada ja peatada teenuseid. Mida võib märgata?
+Kuvage teenuste olekuid, käivitage ja peatage teenuseid. Mida võib märgata?
 
 ## Küsimus
 
