@@ -28,7 +28,7 @@ Need käsud ei ole *Sys V init* süsteemile spetsiifilised, nendega võib hallat
 
 ## Harjutus
 
-Halda mõnda teenust ja muuda nende olekuid. Mida võib märgata?
+Hallake mõnda teenust ja muuke nende olekuid. Mida võib märgata?
 
 ## Küsimus
 
