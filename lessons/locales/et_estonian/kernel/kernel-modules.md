@@ -2,9 +2,9 @@
 
 ## Tunni sisu
 
-Ütleme, et mul on uhke auto, ma olen sinna investeerimud palju aega ja raha. Lisan tagaspoileri, veokonksu, rattaraami ja veel igasuguseid asju. Need komponendid ei muuda tegelikult auto keskset toimimist ning ma võin neid lisada ja eemaldada väga lihtsalt. Tuum kasutab sama kontseptsiooni moodulitega.
+Ütleme, et mul on uhke auto, ma olen sinna investeerimud palju aega ja raha. Lisan tagaspoileri, veokonksu, rattaraami ja veel igasuguseid tulesid-vilesid. Need komponendid ei muuda tegelikult auto keskset toimimist ning ma võin neid lisada ja eemaldada väga lihtsalt. Tuum kasutab sama kontseptsiooni moodulitega.
 
-Tuum iseenesest on üks monoliitne tükk tarkvara. Kui me tahame lisada tuge uut tüüpi klaviatuurile, ei kirjuta me seda otse tuuma koodi. Just nagu me ei keevita rattaraami auto külge (kes teab, vahest mõni inimene tahab seda teha). Tuuma moodulid on tükid koodi, mida saab nõudmisel tuumale peale laadida ja eemaldada. Moodulid lasevad meil laiendada tuuma funktsionaalsust ilma, et peaks sekkuma tuuma kesksesse koodi. Mooduleid saab lisada ka ilma süsteemi taaskäivitamata (enamustel juhtudel).
+Tuum iseenesest on üks monoliitne tükk tarkvara. Kui me tahame lisada tuge uut tüüpi klaviatuurile, ei kirjuta me seda otse tuuma koodi. Just nagu me ei keevita rattaraami auto külge (kes teab, vahest mõni inimene tahab seda teha). Tuuma moodulid on  lühikesed lisakoodid, mida saab nõudmisel tuumale peale laadida ja eemaldada. Moodulid lasevad meil laiendada tuuma funktsionaalsust ilma, et peaks sekkuma tuuma kesksesse koodi. Mooduleid saab lisada ka ilma süsteemi taaskäivitamata (enamustel juhtudel).
 
 <b>Kuva nimekiri hetkel laetud moodulitest</b>
 
@@ -42,7 +42,7 @@ blacklist maasika_moos
 
 ## Harjutus
 
-Eemalda modprobe abil bluetooth moodul ja vaata, mis juhtub. Kuidas seda uuest korda teha?
+Eemaldage modprobe abil bluetooth moodul ja vaake, mis juhtub. Kuidas seda uuesti tagasi saada?
 
 ## Küsimus
 
