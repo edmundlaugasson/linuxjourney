@@ -41,7 +41,7 @@ State: connected (global)
 
 <b>nmcli</b>
 
-*nmcli* käsk võimaldab kontrollida ja muuta *NetworkManageri*. Detailide kuvamiseks tasub vaadata man-lehekülgi (*man nmcli*).
+*nmcli* käsk võimaldab kontrollida ja muuta *NetworkManageri*. Lisainfo ja peensuste kuvamiseks tasub vaadata man-lehekülgi (*man nmcli*).
 
 ## Harjutus
 
