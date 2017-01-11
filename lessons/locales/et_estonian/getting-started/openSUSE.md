@@ -16,7 +16,7 @@ openSUSE Leap sobib kasutamiseks laua- ja sülearvutis.
 
 ## Harjutus
 
-Kui on huvi kasutada openSUSE Linuxit enda operatsioonisüsteemina, tasub vaadata paigaldusjuhist ja proovida: <a href='https://software.opensuse.org/'>software.opensuse.org</a>
+Kui on huvi kasutada openSUSE Linuxit arvuti operatsioonisüsteemina, tasub vaadata paigaldusjuhist ja proovida: <a href='https://software.opensuse.org/'>software.opensuse.org</a>
 
 ## Küsimus
 
