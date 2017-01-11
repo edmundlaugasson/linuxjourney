@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Kasutaja süsteemis on päris palju logifaile, enamus olulisi on leitavad kataloogist */var/log/*. Kõiki ei hakata selles peatükis tutvustama kuid mõned olulisemad tulevad siiski jutuks.
+Kasutaja süsteemis on päris palju logifaile, enamus olulisi on leitavad kataloogist */var/log/*. Kõiki neid ei hakata selles peatükis tutvustama, kuid mõned olulisemad tulevad siiski jutuks.
 
 Kaks üldist logifaili, mis annavad kasutajale süsteemis toimuvast ülevaate:
 
