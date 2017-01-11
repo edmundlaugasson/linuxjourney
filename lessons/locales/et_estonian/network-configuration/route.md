@@ -32,7 +32,7 @@ $ ip route delete 192.168.2.1/23
 
 ## Harjutus
 
-Harjutust selles peatükis ei ole kuid soovitatav on selle peatüki käskude man-lehekülgedelt informatsiooni juurde lugeda.
+Harjutust selles peatükis ei ole, kuid soovitatav on selle peatüki käskude man-lehekülgedelt informatsiooni juurde lugeda.
 
 <pre>$ man route</pre>
 
