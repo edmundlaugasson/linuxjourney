@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Mis juhtub kui paigaldada uus tuum? See lisab süsteemi mõned failid, mis tavaliselt paiknevad */boot* kataloogis.
+Mis juhtub  uue tuuma paigaldamisel? See lisab süsteemi mõned failid, mis tavaliselt paiknevad */boot* kataloogis.
 
 Erinevate versioonide jaoks on mitmeid faile:
 
@@ -17,7 +17,7 @@ Kui */boot* kataloogis saab ruum otsa, võib alati nende failide vanu versioone 
 
 ## Harjutus
 
-Minna */boot* kataloogi ja uurida sealolevaid faile.
+Avage */boot* kataloog ja uurige seal asuvaid faile.
 
 ## Küsimus
 
