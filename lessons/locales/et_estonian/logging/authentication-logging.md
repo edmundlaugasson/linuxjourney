@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Isikutuvastuse logimine osutub väga kasulikuks kui tekivad probleemid kasutaja sisselogimisega.
+Isikutuvastuse logimine osutub väga kasulikuks, kui tekivad probleemid kasutajate sisselogimisega.
 
 <b>/var/log/auth.log</b>
 
@@ -16,7 +16,7 @@ Jan 31 10:37:50 icebox pkexec: pam_unix(polkit-1:session): session opened for us
 
 ## Harjutus
 
-Tekitada mõned ebaõnnestunud sisselogimiskatsed ja ka üks edukas. Seejärel vaadata faili */var/log/auth.log* ja märgata, mis juhtus.
+Tekitade mõned ebaõnnestunud sisselogimiskatsed ja ka üks edukas. Seejärel vaadake faili */var/log/auth.log* ja pange tähele, mis juhtus.
 
 ## Küsimus
 
