@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-OSI mudelist kasvas välja TCP/IP mudel ja sellel mudelil Internet ka tegelikult põhineb. TCP/IP mudel kasutab TCP/IP protokollistikku, mida nimetatakse tavaliselt lihtsalt TCP/IP. Need protokollid töötavad koos, et täpsustada kuidas andmeid peab võrgus koguma, adresseerima, edastama ja marsruutima. TCP/IP mudel võimaldab kirjeldada kuidas kasutatakse protokolle ja kuidas pakett võrgus liigub.
+OSI mudelist kasvas välja TCP/IP mudel ja sellel mudelil Internet ka tegelikult põhineb. TCP/IP mudel kasutab TCP/IP protokollistikku, mida nimetatakse tavaliselt lihtsalt TCP/IP. Need protokollid töötavad koos, et täpsustada, kuidas andmeid peab võrgus koguma, adresseerima, edastama ja marsruutima. TCP/IP mudel võimaldab kirjeldada, kuidas kasutatakse protokolle ja kuidas pakett võrgus liigub.
 
 <b>Rakenduskiht</b>
 
@@ -40,7 +40,7 @@ See kiht kirjeldab, kuidas edastada andmeid riistvara peal füüsiliselt. Näite
 
 Äratoodud protokollide nimekirjad ei ole lõplikud või ammendavad ning kindlasti kohtab veel palju olulisi protokolle.
 
-Järgnevates peatükkides süveneme igasse kihti ja kirjeldame kuidas liiguvad pakettid võrgus läbi TCP/IP silmade (eksisteerib mitmeid erinevaid vaateid pakettide võrguliiklusele. Meie neid ei tutvusta kuid nende olemasolust võiks olla teadlik).
+Järgnevates peatükkides süveneme igasse kihti ja kirjeldame kuidas liiguvad pakettid võrgus läbi TCP/IP silmade (eksisteerib mitmeid erinevaid vaateid pakettide võrguliiklusele. Meie neid ei tutvusta, kuid nende olemasolust võiks olla teadlik).
 
 Lisalugemist eesti keeles <a target="_blank" href="https://et.wikipedia.org/wiki/TCP/IP_mudel">https://et.wikipedia.org/wiki/TCP/IP_mudel</a>
 
