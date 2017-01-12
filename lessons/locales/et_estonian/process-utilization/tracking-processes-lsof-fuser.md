@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Ütleme, et kasutaja ühendab aruvisse USB pulga ja alustab tööd sealsete failidega. Kui aga töö on tehtud ja hakatakse pulka lahti ühendama ilmub veateade "Seade või ressurss on hõivatud". Kuidas saada teada, millised failid USB pulgal on endiselt kasutuses? Selle jaoks on isegi kaks tööriista:
+Ütleme, et kasutaja ühendab arvutisse USB pulga ja alustab tööd sealsete failidega. Kui aga töö on tehtud ja hakatakse pulka lahti ühendama ilmub veateade "Seade või ressurss on hõivatud". Kuidas saada teada, millised failid USB pulgal on endiselt kasutuses? Selle jaoks on isegi kaks tööriista:
 
 <b>lsof</b>
 
@@ -38,11 +38,11 @@ pete@icebox:~$ fuser -v .
                      pete  2207 ..c.. bash
 </pre>
 
-Võime näiteks kuvada, millised protsessid kasutavad hetkel meie kodukataloogi. *lsof* ja *fuser* tööriistad on väga sarnased. Kasutaja võiks nendega tuttavaks saada ja proovida neid kasutada järgmine kord kui on tarvis mõnda faili või protsessi jälgida.
+Võime näiteks kuvada, millised protsessid kasutavad hetkel meie kodukataloogi. *lsof* ja *fuser*, need tööriistad on väga sarnased. Kasutaja võiks nendega tuttavaks saada ja proovida neid kasutada järgmine kord, kui on tarvis mõnda faili või protsessi jälgida.
 
 ## Harjutus
 
-Lugeda *lsof* ja *fuser* man-lehekülgi. Sealt võib leida hulgaliselt informatsiooni, mida selles peatükis ei avaldatud kuid võimaldavad nende tööriistade kasutamisel suuremat paindlikust.
+Lugege *lsof* ja *fuser* man-lehekülgi. Sealt võib leida hulgaliselt informatsiooni, mida selles peatükis ei avaldatud, kuid võimaldavad nende tööriistade kasutamisel suuremat paindlikust.
 
 ## Küsimus
 
