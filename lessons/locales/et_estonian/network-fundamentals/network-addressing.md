@@ -2,11 +2,11 @@
 
 ## Tunni sisu
 
-Enne kui vaatame kuidas pakettid võrgus liiguvad, peab tuttavaks saama terminoloogiaga. Kui saata kirja siis pean teadma, kellele seda saadetakse ja kust see tuleb. Pakettidel on vaja samasugust informatsiooni. Hoste tuvastavad MAC (*media access control*)ja IP aadressid. Et inimestele asja lihtsamaks teha kasutatakse hostide tuvastamiseks hostinimesid.
+Enne kui vaatame kuidas pakettid võrgus liiguvad, peame tuttavaks saama terminoloogiaga. Kui saadetakse kiri, siis peab teadma, kellele seda saadetakse ja kust see tuleb. Pakettidel on vaja samasugust informatsiooni. Hoste tuvastavad MAC (*media access control*)ja IP aadressid. Et inimestele asja lihtsamaks teha kasutatakse hostide tuvastamiseks hostinimesid.
 
 <b>MAC aadressid</b>
 
-MAC aadress on unikaalselt tuvastatav riistvara aadress. See ei muutu kunagi.  Kui kasutaja tahab ühenduda Internetti, on arvutisse vaja seadet nimega võrguliidese kaart (NIC - *Network Interface Card*). Sellel võrguadapteril ongi riistvara aadress, mille abil saab arvutit võrgus tuvastada. Etherneti seadme MAC aadress näeb välja umbes selline: 00:C4:B5:45:B2:43. MAC aadressid antakse võrguadapteritele tootmise käigus. Igal tootjal on organisatsiooni unikaalselt tuvastav number (OUI). Selle OUI leiab MAC aadressi esimesest kolmes baidist. Näites on Dellil see 00-14-22, mistõttu võiks Delli adapteriga arvuti MAC aadress olla näiteks 00-14-22-34-B2-C2.
+MAC-aadress on unikaalselt tuvastatav riistvara aadress. See ei muutu kunagi.  Kui kasutaja tahab ühenduda Internetti, on arvutisse vaja seadet nimega võrguliidese kaart (NIC - *Network Interface Card*). Sellel võrguadapteril ongi riistvara aadress, mille abil saab arvutit võrgus tuvastada. Etherneti seadme MAC-aadress näeb välja umbes selline: 00:C4:B5:45:B2:43. MAC-aadressid antakse võrguadapteritele tootmise käigus. Igal tootjal on organisatsiooni unikaalselt tuvastav number (OUI). Selle OUI leiab MAC aadressi esimesest kolmes baidist. Näites on Dellil see 00-14-22, mistõttu võiks Delli adapteriga arvuti MAC-aadress olla näiteks 00-14-22-34-B2-C2.
 
 <b>IP aadressid</b>
 
