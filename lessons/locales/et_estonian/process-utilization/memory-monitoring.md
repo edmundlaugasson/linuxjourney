@@ -57,7 +57,7 @@ Sõnaseletus<br>
 
 ## Harjutus
 
-Uurida mälukasutust *vmstat*'iga.
+Uurige mälukasutust *vmstat*'iga.
 
 ## Küsimus
 
