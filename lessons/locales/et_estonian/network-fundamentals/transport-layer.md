@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Transpordikiht võimaldab edastada andmeid võrku loetavas keeles. See jagab kasutaja andmed tükkideks, mida seejärel edastatakse ja pannakse hiljem jälle õiges järjekorras kokku. Neid tükke nimetatakse segmentideks. Segmendid teevad andete edastamise lihtsamaks.
+Transpordikiht võimaldab edastada andmeid võrku loetavas keeles. See jagab kasutaja andmed tükkideks, mida seejärel edastatakse ja pannakse hiljem jälle õiges järjekorras kokku. Neid tükke nimetatakse segmentideks. Segmendid teevad andmete edastamise lihtsamaks.
 
 <b>Pordid</b>
 
@@ -23,11 +23,11 @@ Sama kehtib ka UDP portide vaatamise kohta.
 
 Kaks populaarset transpordiprotokolli on UDP ja TCP. Tutvustame UDP'd ainult kergelt ja veedame suurema aja TCP'ga, kuna seda kasutatakse tüüpilisemalt.
 
-UDP ei ole usaldusväärne meetod andmete edastamiseks, tegelikult seda isegi ei huvita kas kasutaja saab kõik andmed kätte või mitte. See võib kõlada halvasti kuid ka UDP'l on oma koht, näiteks meedia voogesituses. Ei ole ju hullu kui mõned raamid ei jõua kohale kuid selle eest edastatakse andmeid kiiremini.
+UDP ei ole usaldusväärne meetod andmete edastamiseks, tegelikult seda isegi ei huvita, kas kasutaja saab kõik andmed kätte või mitte. See võib kõlada halvasti kuid ka UDP'l on oma koht, näiteks meedia voogesituses. Ei ole ju hullu, kui mõned raamid, näiteks videokaadrid, ei jõua kohale, kuid selle eest edastatakse andmeid kiiremini.
 
 <b>TCP</b>
 
-TCP pakub usaldusväärset ühendusele orienteeritud andete edastamist. TCP kasutab porte saatmaks andmeid hostide vahel. Rakendus avab ühenduse mõlema hosti juures. Et luua ühendus, kasutatakse TCP käepigistust.
+TCP pakub usaldusväärset ühendusele orienteeritud andete edastamist. TCP kasutab porte saatmaks andmeid hostide vahel. Rakendus avab ühenduse mõlema hosti juures. Et luua ühendus, kasutatakse TCP "käepigistust".
 
 <ul>
 <li>Klient saadab serverile ühenduse palvega SYN segmendi.</li>
