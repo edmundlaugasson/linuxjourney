@@ -19,7 +19,7 @@ Tundes huvi keskmise koormuse vastu, tuleb alati võtta arvesse ka tuumade arv. 
 
 ## Harjutus
 
-Uurida süsteemi keskmist koormust ja selle käitumist.
+Uurige süsteemi keskmist koormust ja selle käitumist.
 
 ## Küsimus
 
