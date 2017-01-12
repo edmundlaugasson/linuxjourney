@@ -22,7 +22,7 @@ Esimeses väljas on teenuse nimi, sellele järgneb pordi number ja kasutatava tr
 
 <b>netstat</b>
 
-See on üks väga kasulik tööriist saamaks detailset võrguga seotud informatsiooni. *Netsat* kuvab väga erinevat informatsiooni, näiteks võrguühendused, marsruutimistabelid, info võrguliideste kohta ja veel muudki. See on justkui võrgu tööriistade šveitsi armee nuga. Selles peatükis keskendume ühele omadusele, selleks on võrguühenduse olek. Enne näitega tutvumist räägime natuke soklitest ja portidest. Sokkel on liides, mis võimaldab programmidel andmeid vahetada, port aga tuvastab rakenduse, mis peaks andmete edastamist teostama. Sokli moodustavad IP aadress ja port. Iga üksik ühendus vajab unikaalset soklit. Toome näiteks HTTP. See on teenus, mis kasutab porti nr 80. Meil võib ju olla mitu HTTP ühendust (mitu samaaegselt avatud veebilehte). Selleks, et iga ühendust alal hoida luuakse iga ühenduse kohta unikaalne sokkel.
+See on üks väga kasulik tööriist saamaks detailset võrguga seotud informatsiooni. *Netsat* kuvab väga erinevat informatsiooni, näiteks võrguühendused, marsruutimistabelid, info võrguliideste kohta ja veel muudki. Seda võib nimetada võrgutööriistade šveitsi armee noaks. Selles peatükis keskendume ühele omadusele, selleks on võrguühenduse olek. Enne näitega tutvumist räägime natuke soklitest ja portidest. Sokkel on liides, mis võimaldab programmidel andmeid vahetada, port aga tuvastab rakenduse, mis peaks andmete edastamist teostama. Sokli moodustavad IP aadress ja port. Iga üksik ühendus vajab unikaalset soklit. Toome näiteks HTTP. See on teenus, mis kasutab porti nr 80. Meil võib ju olla mitu HTTP ühendust (mitu samaaegselt avatud veebilehte). Selleks, et iga ühendust alal hoida luuakse iga ühenduse kohta unikaalne sokkel.
 
 <pre>
 pete@icebox:~$ netstat -at
@@ -63,7 +63,7 @@ Lehelt *man netstat* leiab sokli olekute nimekirja kuid siin on mõned näiteks:
 
 ## Harjutus
 
-Tutvuda *man netstat* leheküljel kõikide netstat'i kasutamise võimalustega.
+Tutvuge *man netstat* leheküljel kõikide netstat'i kasutamise võimalustega.
 
 ## Küsimus
 
