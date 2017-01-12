@@ -17,7 +17,7 @@ Võrgus edastatavaid andmeid ja informatsiooni nimetatakse pakettideks ning sell
 
 ## Harjutus
 
-Selles peatükis harjutust ei ole.
+Selles peatükis harjutust ei ole. 
 
 ## Küsimus
 
