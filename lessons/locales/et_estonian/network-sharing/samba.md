@@ -8,7 +8,7 @@ Sambaks nimetatakse GNU/Linuxi haldusvahendeid töötamaks GNU/Linuxis CIFS'ga. 
 
 <b>Sambaga võrgus jagamise üles seadmine</b>
 
-Käime üle peamised sammud, et jagada midagi läbi võrgu MS Windows masinaga:
+Käime läbi peamised sammud, et jagada midagi läbi võrgu MS Windows masinaga:
 
 <b>Samba paigaldamine</b><br>
 <pre>$ sudo apt update && sudo apt-get -y install samba && sudo ldconfig && sudo dpkg --configure -a && sudo apt-get clean</pre>
@@ -51,7 +51,7 @@ Selle asemel, et faile üks haaval üle kanda, võib jagatud kataloogi lihtsalt 
 
 ## Harjutus
 
-Seada üles jagamine Sambaga, kui seda veel pole. Avada *smb.conf* ja saada tuttavaks võimalike valikutega sätete failis.
+Seadke üles failijagamine Sambaga, kui seda veel pole. Avada *smb.conf* ja tutvuge võimalike valikutega sätete failis.
 
 ## Küsimus
 
