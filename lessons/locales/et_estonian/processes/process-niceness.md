@@ -2,11 +2,11 @@
 
 ## Tunni sisu
 
-Kui tegeleda arvutis mitmete asjadega: korraga on avatud ehk Chromium, LibreOffice Writer ja GIMP siis vőib tunduda, et need protsessid töötavad kőik samal ajal kuid tegelikult see päris nii ei ole.
+Kui tegeleda arvutis mitmete asjadega: korraga on avatud ehk Chromium, LibreOffice Writer ja GIMP siis vőib tunduda, et need protsessid töötavad kőik samal ajal, kuid tegelikult see päris nii ei ole.
 
-Protsessid kasutavad protsessorit ainult väikese osa ajast, seda nimetatakse *time slice* ehk *ajakild*. Seejärel nad peatuvad millisekunditeks ja teised protsessid saavad oma killukese aega. Vaikimisi toimub see ikka üksteise järel uuesti ja uuesti. Kőik protsessid saavad piisavalt ajakilde kuni nad oma tööga valmis saavad. Tuum haldab kogu seda protsesside ümberlülitumist ja suurem osa ajast teeb seda ka väga edukalt.
+Protsessid kasutavad protsessorit ainult väikese osa ajast, seda nimetatakse *time slice* ehk *ajakild, ajapilu*. Seejärel nad peatuvad millisekunditeks ja teised protsessid saavad oma ajapilu jagu aega. Vaikimisi toimub see ikka üksteise järel uuesti ja uuesti. Kőik protsessid saavad piisavalt ajavahemikke, kuni nad oma tööga valmis saavad. Tuum haldab kogu seda protsesside ümberlülitumist ja suurem osa ajast teeb seda ka väga edukalt. Protsessor töötab, nagu öeldakse, ajajaotusreziimis.
 
-Protsessid ise ei saa otsustada millal ja kui palju nad protsessori aega kasutada saavad. Kui kőik töötavad tavapäraselt, saavad nad kőik ka (enamvähem) vőrdselt protsessori aega. On aga vőimalus tuuma protsessi vaikimisi algoritmi muutmiseks *nice*(tőlkes *kena*) väärtusega. Kenadus on küll veider nimi kuid see tähendab, et protsessid saavad numbri, mis määrab nende prioriteedi protsessori jaoks. Suurem number tähendab, et protsess on kena ja tal on madalam prioriteet protsessori jaoks, väike vői negatiivne number tähendab, et protsess ei ole väga kena ja tahab saada nii palju protsessori aega kui vőimalik.
+Protsessid ise ei saa otsustada millal ja kui palju nad protsessori aega kasutada saavad. Kui kőik töötavad tavapäraselt, saavad nad kőik ka (enamvähem) vőrdselt protsessori aega. On aga vőimalus tuuma protsessi vaikimisi algoritmi muutmiseks *nice*(tőlkes *kena*) väärtusega. Kenadus on küll veider nimi, kuid see tähendab, et protsessid saavad numbri, mis määrab nende prioriteedi protsessori jaoks. Suurem number tähendab, et protsess on "kenam" ja tal on madalam prioriteet protsessori jaoks, väike vői negatiivne number tähendab, et protsess ei ole väga kena ja tahab saada nii palju protsessori aega kui vőimalik. Kenaduse asemel võiks mõelda ka inimlikusest omadusest - "vastutulelikkusest" või "taanduvusest", mis oleks rohkem tehniline mõiste.
 
 <pre>$ top</pre>
 
