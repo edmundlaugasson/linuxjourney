@@ -17,7 +17,7 @@ Signaalid on tarkvaralised katkestused ja neil on palju eesmärke:
 
 <b>Signaali protsess</b>
 
-Kui mõnest sündmusest tekib signaal siis edastatakse see protsessile. Signaal on kuni kohalejõudmiseni ootavas olekus. Signaali peetakse kohale toimetatuks kui protsess käivitatakse. Küll aga on protsessidel signaalimaskid ja signaalide kohaletoimetamise saab blokeerida kui see on nõnda täpsustatud. Kui protsess saab signaali, võivad juhtuda järgmised asjad:
+Kui mõnest sündmusest tekib signaal, siis edastatakse see protsessile. Signaal on kuni kohalejõudmiseni ootavas olekus. Signaali peetakse kohale toimetatuks, kui signaalile vastav protsess käivitatakse. Küll aga on protsessidel signaalimaskid ja signaalide kohaletoimetamise saab blokeerida, kui see on nõnda täpsustatud. Kui protsess saab signaali, võivad juhtuda järgmised asjad:
 
 <ul>
 <li>Signaali ignoreeritakse</li>
