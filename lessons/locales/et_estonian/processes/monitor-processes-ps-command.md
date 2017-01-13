@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Protsessid on arvutis töötavad programmid. Neid haldab tuum ja neil kőigil on oma ID, mida nimetatakse <b>protsessi ID'ks (PID)</b>. Need ID'd jagatakse välja protsessside loomise järjekorras.
+Protsessid on arvutis töötavad programmid. Neid haldab tuum ja neil kőigil on oma ID (identifikaator), mida nimetatakse <b>protsessi ID'ks (PID)</b>. Need ID'd jagatakse välja protsessside loomise järjekorras.
 
 *ps* käsku sisestades saab näha nimekirja töötavatest protsessidest:
 
@@ -47,13 +47,13 @@ Selle käsuga on näha oluliselt rohkem välju. Neid pole vaja kőiki meelde jä
 
 *ps* käsu kogu väljundi vaatamine vőib muutuda tülikaks, kőige rohkem tasub vaadata PID, STAT ja COMMAND veerge.
 
-Teine väga kasulik käsk on *top*. See kuvab töötavate protsesside kohta juba mitte enam hetke ülesvőtet vaid jooksvat informatsiooni. Vaikimisi uuendatakse kuva iga 10 sekundi järel. *Top* on äärmisel kasulik vahend kui on vajalik teada, millised protsessid kasutavad suuremal määral arvuti ressursse.
+Teine väga kasulik käsk on *top*. See kuvab töötavate protsesside kohta juba mitte enam hetke ülesvőtet vaid jooksvat informatsiooni. Vaikimisi uuendatakse kuva iga 10 sekundi järel. *Top* on äärmisel kasulik vahend, kui on vajalik teada, millised protsessid kasutavad suuremal määral arvuti ressursse.
 
 <pre>$ top</pre>
 
 ## Harjutus
 
-Kasutada *ps* erinevate lippudega ja pöörata tähelepanu sellele, kuidas muutub kuvatav info.
+Kasutage *ps* erinevate lippudega ja pöörake tähelepanu sellele, kuidas muutub kuvatav info.
 
 ## Küsimus
 
