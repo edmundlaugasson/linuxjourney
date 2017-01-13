@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-NAT'i (*<b>N</b>etwork <b>A</b>ddress <b>T</b>ranslation*) ehk võrguaadresside teisendamist on juba varem ka mainitud. Kui tegutseme enda võrgus kas IP aadress on siis Internetist näha? Mitte päris.
+NAT'i (*<b>N</b>etwork <b>A</b>ddress <b>T</b>ranslation*) ehk võrguaadresside teisendamist on juba varem ka mainitud. Kui tegutseme enda võrgus kas IP aadress on siis Internetist näha? Mitte päriselt.
 
 NAT muudab seadme nagu marsruuter justkui vahemeheks Interneti ja kohtvõrgu vahel. Seega on vaja ainult ühte IP aadressi, et esindada kõiki marsruuteri taha jäävaid arvuteid.
 
@@ -18,7 +18,7 @@ Lihtsam juhtum näeks välja nii:
 <li>Marsruuter vahendab Peetri ja www.google.com vahelist ühendust. Google ei tea Peetrist midagi, tema näeb ainult marsruuterit.</li>
 </ol>
 
-NAT ja marsruutimine üldisemalt võivad üsna keeruliseks minna kuid me ei süvene liialt pisiasjadesse.
+NAT ja marsruutimine üldisemalt võivad üsna keeruliseks minna, kuid siinkohal me ei süvene liialt pisiasjadesse.
 
 ## Harjutus
 
