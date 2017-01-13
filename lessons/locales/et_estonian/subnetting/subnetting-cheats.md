@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-See peatükk on natuke kahtlase väärtusega kuna tõenäoliselt ei ole kunagi vaja käsitsi alamvõrke arvutada kuid ütleme, et meid tabab äkitselt mingi selleteemaline intervjuu siis oleks hea osata teisendada detsimaali ja binaari vahel. Õnneks on olemas aritmeetiline spikker, et sellega aidata.
+See peatükk nõib ehk tarbetu, kuna tõenäoliselt ei ole kunagi vaja käsitsi alamvõrke arvutada kuid ütleme, et meid tabab ootamatult vajadus teha midagi sarnast, siis oleks hea osata teisendada detsimaalist binaari (kümnendarvust kahendarvuks) ja vatupidi. Allpools on olemas vastav spikker, mille kasutamine polegi "raketiteadus".
 
 Alustuseks tuleb õppida ära esimesed kahe astmed:
 
@@ -21,14 +21,14 @@ Alustuseks tuleb õppida ära esimesed kahe astmed:
 <li>2<sup>12</sup> = 4096</li>
 </ul>
 
-<b>Detsimaalist binaari</b>
+<b>Kümnendarv kahendarvuks</b>
 
 <pre>
 1   1  1  1  1 1 1 1
 128 64 32 16 8 4 2 1
 </pre>
 
-On väga palju põhjuseid miks see graafik näeb välja just selline, huvi korral võib Internetist leida hulgaliselt materjale.
+On väga palju põhjuseid, miks see graafik näeb välja just selline, huvi korral võib Internetist leida hulgaliselt materjale.
 
 Jäi see kõik pähe? Nüüd siis kiire detsimaalist binaari teisendus:
 
@@ -36,12 +36,12 @@ Jäi see kõik pähe? Nüüd siis kiire detsimaalist binaari teisendus:
 
 Meenutame: 128 / 64 / 32 / 16 / 8 / 4 / 2 / 1
 
-Teeme koos läbi esimese okteti teisendamise ja see asi saab kiiresti selgeks.
+Teeme koos läbi esimese okteti teisendamise ja see võte saab kiiresti selgeks.
 
 <ol>
 <li>Saame lahutada 192 - 128? Jah, seega esimene bitt on 1</li>
 <li>192 - 128 = 64, järgmine number graafikus on 64, kas saame lahutada 64 - 64?Jah, seega teine bitt on 1</li>
-<li>Kuna numbrid mida lahutada said otsa siis arvu 192 binaaresitus on 11000000</li>
+<li>Kuna numbrid, mida lahutada said otsa siis arvu 192 binaaresitus on 11000000</li>
 </ol>
 
 <b>Teisendame detsimaalesitusse 11000000</b>
@@ -54,7 +54,7 @@ Tulemusi võib kontrollida näiteks aadressil <a target="_blank" href="http://jo
 
 ## Harjutus
 
-Tuvastada arvuti IP aadress ja alamvõrgu mask ning arvutada maksimaalne hostide arv enda võrgus.
+Tuvastage arvuti IP aadress ja alamvõrgu mask ning arvutage maksimaalne hostide arv oma koduvõrgus.On ju meeles, mis on host?
 
 ## Küsimus
 
