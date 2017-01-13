@@ -1,4 +1,4 @@
-# Töö kontroll
+# Tööde juhtimine
 
 ## Tunni sisu
 
