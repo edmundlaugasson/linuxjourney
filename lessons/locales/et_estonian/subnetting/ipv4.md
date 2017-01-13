@@ -32,7 +32,7 @@ Seade ise (*loopback*):
 
 ## Harjutus
 
-Tuvastada enda arvuti võrguliideste IP aadressid käsuga ifconfig.
+Tuvastage oma arvuti võrguliideste IP aadressid käsuga ifconfig.
 
 ## Küsimus
 
