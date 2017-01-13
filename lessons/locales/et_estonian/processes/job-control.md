@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Ütleme, et töötatakse terminali aknas ja käivitatud on käsk, mille täitmiseks kulub lõpmata palju aega. Kestprogrammi ei saa kasutada nii kaua kui see oma ülesandega valmis saab, soov on aga tööga jätkata. Õnneks saab kontrollida kuidas protsessid töödega töötavad:
+Ütleme, et töötatakse terminali aknas ja käivitatud on käsk, mille täitmiseks kulub lõpmata palju aega. Kestprogrammi ei saa kasutada nii kaua, kui see oma ülesandega valmis saab, soov on aga tööga jätkata. Õnneks saab kontrollida kuidas protsessid töödega töötavad:
 
 <b>Töö tagaplaanile saatmine</b>
 
@@ -45,7 +45,7 @@ pete@icebox ~ $ jobs
 
 <b>Töö tagaplaanilt esiplaanile toomine</b>
 
-Et tuua töö tagaplaanilt ära on vaja täpsustada vaid töö ID. Kui sisestada *fg* ilma täpsustusteta tuuakse tagasi kõige hilisem taustatöö (töö mille juures on +).
+Et tuua töö tagaplaanilt ära, on vaja täpsustada vaid töö ID. Kui sisestada *fg* ilma täpsustusteta tuuakse tagasi kõige hilisem taustatöö (töö mille juures on +).
 
 <pre>$ fg %1</pre>
 
@@ -57,7 +57,7 @@ Tööde esiplaanile liigutamise käsule sarnases formaadis on ka nende peatamise
 
 ## Harjutus
 
-Liigutada töid esi- ja tagaplaani vahel.
+Liigutage töid esi- ja tagaplaani vahel.
 
 ## Küsimus
 
