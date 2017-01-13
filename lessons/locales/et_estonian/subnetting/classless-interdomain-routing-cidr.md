@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-CIDR (*classless inter-domain routing*) ehk klassideta domeenidevaheline marsruutimine kasutab alamvõrgu maske kompaktselt. Alamvõrkude CIDR tähistust võib näha, kui näiteks alamvõrku 10.42.3.0 255.255.255.0 kujutatakse kujul 10.42.3.0/24, mis tegelikult tähendab samamoodi alamvõrgu eesliidet (*prefiks*) ja maski.
+CIDR (*classless inter-domain routing*) ehk klassideta domeenidevaheline marsruutimine, kasutab alamvõrgu maske kompaktselt. Alamvõrkude CIDR tähistust võib näha, kui näiteks alamvõrku 10.42.3.0 255.255.255.0 kujutatakse kujul 10.42.3.0/24, mis tegelikult tähendab samamoodi alamvõrgu eesliidet (*prefiks*) ja maski.
 
 Meenutame veelkord, et IPv4 aadress koosneb 4 baidist, et 32 bittist. CIDR viitab bittidele, mida kasutatakse võrgu eesliitena. Seega 123.12.24.0/23 tähendab, et selleks on esimesed 23 bitti. Mida see siis tähendab? Mitu hosti see teeb?
 
