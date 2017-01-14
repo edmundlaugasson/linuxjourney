@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-TCP/IP mudeli põhjas istub andmevahetuskiht. See kiht on seotud riistvaraga.
+TCP/IP mudeli kõige alumine on andmevahetuskiht. See kiht on seotud riistvaraga.
 
 Siin kapseldatakse pakett veelkord, seekord nimetatakse seda raamiks. Raami päisesse pannakse saaja ja saatja MAC aadressid, kontrollsummad ja paketieraldajad, et vastuvõtja teaks millal pakett lõpeb.
 

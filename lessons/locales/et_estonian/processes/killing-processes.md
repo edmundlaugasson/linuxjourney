@@ -30,7 +30,7 @@ Kõigi signaale ja nende numbrilisi väärtusi näeb näiteks kui paigaldada pro
 
 ## Harjutus
 
-Peatada protsesse erinevate signaalidega.
+Peatage protsesse erinevate signaalidega.
 
 ## Küsimus
 

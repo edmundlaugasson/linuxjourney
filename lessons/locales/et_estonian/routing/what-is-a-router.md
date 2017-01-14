@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Seda sõna on siin peatükkides päris palju kasutatud. Loodetavasi see ei ole see midagi võõrast, eriti kuna väga tõenäoliselt on see lugejal kodus olemas. Marsruuter võimaldab arvutitel ühes ja samas aga ka erinevates võrkudes suhelda. Tüüpiliselt on marsruuteril kohtvõrgu liidesed, mis võimaldavad arvutitel kohtvõrgus ühenduda. Samuti on olemas Interneti port, mis on ühendatud Internetiga. Mõnikord on selle pordi nimi WAN (*Wide Area Network* - laivõrk), kuna sisuliselt ühendab see kohtvõrgu laiema võrguga. Kui teostada ükskõik millist võrguga seotud tegevust, peab see läbima marsruuteri. See seade otsustab, kuhu võrgupaketid lähevad ja millised tohivad sisse tulla ning vahendab pakkette mitmete võrkude vahel.
+Seda sõna on siin peatükkides päris palju kasutatud. Loodetavasi see ei ole see midagi võõrast, kuna väga tõenäoliselt on see  koduses arvutimajapidamises juba olemas. Marsruuter võimaldab arvutitel ühes ja samas, aga ka erinevates võrkudes suhelda. Tüüpiliselt on marsruuteril kohtvõrgu liidesed, mis võimaldavad arvutitel kohtvõrgus ühenduda. Samuti on olemas Interneti port, mis on ühendatud Internetiga. Mõnikord on selle pordi nimi WAN (*Wide Area Network* - laivõrk), kuna sisuliselt ühendab see kohtvõrgu laiema võrguga. Kui teostada ükskõik millist võrguga seotud tegevust, peab see läbima marsruuteri. See seade otsustab, kuhu võrgupaketid lähevad ja millised tohivad sisse tulla ning vahendab pakkette mitmete võrkude vahel.
 
 <b>Kuidas marsruuter töötab?</b>
 

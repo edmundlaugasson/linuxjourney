@@ -8,13 +8,13 @@ Teeme mõnest failist koopiad. Sarnaselt teistes operatsioonisüsteemides kopeer
 
 minuvingefail on see fail, mida tahetakse kopeerida ja /home/pete/Dokumendid/vingeddokud on see kataloog kuhu kopeerida.
 
-Korraga saab kopeerida ka mitmeid faile ja katalooge kasutades metamärki. Metamärk on selline tähemärk, mis võib asendada mingil mustril põhinevat valikut, andes otsimiseks rohkem vabadust. Pandlikkuse mõttes võib metamärke kasutada iga käsu juures.
+Korraga saab kopeerida ka mitmeid faile ja katalooge kasutades metamärke. Metamärk on selline tähemärk, mis võib asendada mingil mustril põhinevat valikut, andes otsimiseks rohkem vabadust. Pandlikkuse mõttes võib metamärke kasutada iga käsu juures.
 
 
 <ul>
 <li>* metamärkide metamärk, kasutatakse, et esindada ükskõik millist (arvu) sümbolit või sõnet</li>
 <li>? esindab ühte sümbolit</li>
-<li>[] esindab ükskõik millist kantsulgudesse kirjutatud sümbolit</li>
+<li>[] esindab ükskõik millist kantsulgudesse kirjutatud sümbolitest</li>
 </ul>
 
 <pre>$ cp *.jpg /home/pete/Pildid</pre>
@@ -33,7 +33,7 @@ Oluline on panna tähele, et kui kopeerida faili kataloogi, milles on sama nimeg
 
 ## Harjutus
 
-Kopeerida mõnda faili kuid olla ettevaatlik, et midagi olulist üle ei kirjutaks.
+Kopeerida mõnda faili, kuid olla ettevaatlik, et midagi olulist üle ei kirjutaks.
 
 ## Küsimus
 

@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-*traceroute* käsk võimaldab tuvastada pakettide marsruute. Selleks saadetakse pakett kasvava TTL väärtusega alustades 1st. Esimene marsruuter, mis saab paketi, lahutab selles ühe ja seega eemaldab paketi võrguliiklusest. Marsruuter saadab aga vastu ICMP *Time Exceeded* ületatud aja teate. Järgmine väljasaadetav pakett saab TTL väärtuseks juba 2 ja see jõuab esimesest marsruuterist kaugemale. Teise marsruuteri juures aga on väärtus jälle 0 ja tuleb samasugune ICMP teade. Traceroute töötab sedasi, kuna nõnda pakette saates ja neid kõrvaldades ehitatakse nimekiri marsruuteritest, mida paketid peavad sihtkohta jõudmiseks läbima. Kõige lõpuks saadetakse ICMP *Echo Reply* kajapäringu vastus.
+*traceroute* käsk võimaldab tuvastada pakettide marsruute. Selleks saadetakse pakett kasvava TTL väärtusega alustades 1st. Esimene marsruuter, mis saab paketi, lahutab selles ühe ja seega eemaldab paketi võrguliiklusest. Marsruuter saadab aga vastu ICMP *Time Exceeded* ületatud aja teate. Järgmine väljasaadetav pakett saab TTL väärtuseks juba 2 ja see jõuab esimesest marsruuterist kaugemale. Teise marsruuteri juures aga on väärtus jälle 0 ja tuleb samasugune ICMP teade. Traceroute töötab selliselt, et niiviisi pakette saates ja neid kõrvaldades ehitatakse nimekiri marsruuteritest, mida paketid peavad sihtkohta jõudmiseks läbima. Kõige lõpuks saadetakse ICMP *Echo Reply* kajapäringu vastus.
 
 Väike näide traceroute'ist:
 
@@ -18,7 +18,7 @@ Iga marsruuter on seade, mis jääb saatja ja saaja vahele. Kuvatakse sihtkoha n
 
 ## Harjutus
 
-Kasutada *traceroute* käsku ja tutvuda väljundiga.
+Kasutage *traceroute* käsku ja tutvuge väljundiga.
 
 ## Küsimus
 

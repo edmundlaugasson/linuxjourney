@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Interneti kontrollsõnumite protokoll ICMP (*Internet Control Message Protocol*) on osa TCP/IP protokollistikust. Sellega saadetakse veateateid ja see on äärmiselt kasulik võrguga seotud probleemide silumiseks, näiteks pakettide ebaõnnestunud kohaletoimetamise korral.
+Interneti juhtsõnumite protokoll ICMP (*Internet Control Message Protocol*) on osa TCP/IP protokollistikust. Sellega saadetakse veateateid ja see on äärmiselt kasulik võrguga seotud probleemide silumiseks, näiteks pakettide ebaõnnestunud kohaletoimetamise korral.
 
 Igas ICMP teates on tüübi, koodi ja kontrollsumma väljad. Tüübi väljas on ICMP sõnumi tüüp, kood on alamtüüp ja see annab täiendavat informatsiooni sõnumi kohta ning kontrollsummat kasutatakse sõnumi terviklikkuse probleemide tuvastamiseks.
 

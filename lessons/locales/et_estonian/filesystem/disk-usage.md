@@ -22,7 +22,7 @@ Mõlema käsu lausekuju ehk süntaks on teineteisele nii sarnane, et võib osutu
 
 ## Harjutus
 
-Kasuta *du* ja *df* käske, et uurida kasutatud ja vaba ruumi.
+Kasutage *du* ja *df* käske, et uurida kasutatud ja vaba ruumi.
 
 ## Küsimus
 

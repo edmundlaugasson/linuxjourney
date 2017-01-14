@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Järgmised paar õppetundi on üsna teoreetilised. Kui on suurem huvi praktiliste asjade vastu võib esialgu natuke ette rutata ja hiljem siia tagasi pöörduda.
+Järgmised paar õppetundi on üsna teoreetilised. Kui on suurem huvi praktiliste asjade vastu, võib esialgu natuke ette rutata ja hiljem siia tagasi pöörduda.
 
 Milleks eraldame operatsioonisüsteemis üksteisest kasutaja ja tuuma? Miks mitte neid kujutada ühe kihina? Nende kahe eraldi eksisteerimiseks on väga hea põhjus. Nad mõlemad opereerivad erinetel režiimidel. Tuum töötab tuuma režiimis ja kasutaja kasutaja režiimis.
 

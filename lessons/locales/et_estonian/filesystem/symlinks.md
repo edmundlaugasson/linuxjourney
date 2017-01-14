@@ -64,7 +64,7 @@ Sarnane sümbolviida loomisele kui -s jäetakse seekord ära.
 
 ## Harjutus
 
-Harjutada viitade loomist. Kustutada ka mõned ning uurida tagajärgi.
+Harjutage viitade loomist. Kustutage ka mõned neist ning uurige tagajärgi.
 
 ## Küsimus
 

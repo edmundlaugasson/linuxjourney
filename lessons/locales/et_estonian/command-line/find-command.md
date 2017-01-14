@@ -29,3 +29,4 @@ Kuidas peab *find* käsku täpsustama, kui tahta otsida failinime järgi?
 ## Vastus
 
 -name
+

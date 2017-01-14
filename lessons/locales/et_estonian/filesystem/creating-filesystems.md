@@ -14,7 +14,7 @@ Nii lihtne ongi! <b>mkfs</b> laseb kasutajal täpsustada soovitava failisüsteem
 
 ## Harjutus
 
-Teha USB pulgale ext4 failisüsteem.
+Looge USB pulgale ext4 failisüsteem.
 
 ## Küsimus
 

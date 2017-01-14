@@ -1,14 +1,14 @@
 # Koduleht
 
-## Õpipoiss
+## Õpipoisi tase
 
 * Algus - Mis on Linux? Alustame tarkvarakomplekti valimisest ja paigaldamisest.
 
 * Käsurida - Käsurea algtõed, failide ja kataloogide vahel liikumine ja muudki.
 
-* Text-fu - Algtasemel tekstitöötlus.
+* Tekstitöö algtase - Algtasemel tekstitöötlus.
 
-* Text-fu edasijõudnutele - Kuidas hallata teksti nagu tõeline spetsialist kasutades programme <i>vim</i> ja <i>emacs</i>.
+* Tekstitöö edasijõudnutele - Kuidas hallata teksti nagu tõeline spetsialist kasutades programme <i>vim</i> ja <i>emacs</i>.
 
 * Kasutajate haldamine - Kasutajate rollid ja nende haldamine.
 
@@ -18,7 +18,7 @@
 
 * Paketid - Tutvustatakse <i>dpkg</i>, <i>apt-get</i>, <i>rpm</i> ja <i>yum</i> paketihalduse tööriistu.
 
-## Sell
+## Selli tase
 
 * Seadmed - Linuxi seadmed ja kuidas need suhtlevad tuuma ning kasutajaruumiga.
 
@@ -34,7 +34,7 @@
 
 * Logimine - Süsteemi logid ja <i>/var/log</i> kataloog.
 
-## Võrgumeister
+## Meistri tase koos  teadmistega võrkudest
 
 * Failide jagamine - Failide jagamine võrgus tööriistadega <i>rsync</i>, <i>scp</i>, <i>nfs</i> ja teised.
 

@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Lisaks ligipääsuõigustele saab muuta ka faili omanikku: kasutajat ja gruppi.
+Lisaks ligipääsuõigustele saab muuta ka faili omanikku: kasutajaid ja gruppi.
 
 <b>Omaniku muutmine</b>
 
@@ -34,7 +34,7 @@ $ sudo chown peeter:vaalad minufail
 
 ## Harjutus
 
-Muuta mõne testfaili omanikku, kasutajad ja gruppi. Pärast aga vaadata õigusi käsuga *ls -l*.
+Muutke mõne testfaili omanikku, kasutajaid ja gruppi. Pärast aga vaadake õigusi käsuga *ls -l*.
 
 ## Küsimus
 

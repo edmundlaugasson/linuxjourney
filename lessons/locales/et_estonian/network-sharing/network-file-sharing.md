@@ -2,9 +2,9 @@
 
 ## Tunni sisu
 
-Tavaliselt ei ole kasutaja oma arvutiga võrgus üksi ja seda kindlasti mitte siis kui teha tööd ärikeskkonnas. Failide kandmiseks ühest arvutist teise võib mõnikord olla lihtsam kasutada USB pulka ja kopeerida failid käsitsi. Kuid samas võrgus töötades üldjuhul jagatakse faile läbi võrgu. See toimib klient-server põhimõttel ehk siis võrgus peab olema vastavat teenust pakkuv ja tarkvara sisaldav serverarvuti, mille külge saavad ühenduda sama tarkvara toetavad klientarvutid.
+Tavaliselt ei ole kasutaja oma arvutiga võrgus üksi ja seda kindlasti mitte siis, kui tehakse tööd ärikeskkonnas. Failide kandmiseks ühest arvutist teise võib mõnikord olla lihtsam kasutada USB pulka ja kopeerida failid käsitsi. Kuid samas võrgus töötades üldjuhul jagatakse faile läbi võrgu. See toimib klient-server põhimõttel ehk siis võrgus peab olema vastavat teenust pakkuv ja tarkvara sisaldav serverarvuti, millega saavad ühenduda sama tarkvara toetavad klientarvutid.
 
-Sellel kursusel tutvustatakse mõnda  andmete kopeerimise meetodit, mida saab rakendada samas võrgus paiknevate arvutite peal. Arutlusele tulevad mõned lihtsamad failide kopeerimise meetodid, seejärel aga kuidas haakida terveid katalooge, et nad käituksid kui eraldiseisvad kettad.
+Sellel kursusel tutvustatakse mõnda  andmete kopeerimise meetodit, mida saab rakendada samas võrgus paiknevate arvutite peal. Arutlusele tulevad mõned lihtsamad failide kopeerimise meetodid, seejärel aga, kuidas haakida terveid katalooge, et nad käituksid kui eraldiseisvad kettad.
 
 <b>Secure Copy</b><br>
 Üks lihtne failide jagamise tööriist on  <b>scp</b> käsk. Inglise keelest tõlgituna tähendab see käsk turvalist kopeerimist (*secure copy*). See töötab just nagu cp käsk, kuid võimaldab kopeerida erinevate lõppkasutajate vahel. Kuna see töötab läbi SSH, kasutavad kõik tegevused sama isikutuvastust ja turvalisust kui SSH. Linuxis on kasutusel avatud lähtekoodiga OpenSSH server.
@@ -18,7 +18,7 @@ sudo apt update && sudo apt-get -y install ssh openssh-blacklist* && sudo ldconf
 
 Siin paigaldatakse metapakett *ssh*, mis Debiani/Ubuntu-põhistes distrotes sisaldab nii serveri- kui klienditarkvara. Soovi korral saab ka eraldi vaid serveri, paigaldades paketi *openssh-server*.
 
-Soovi korral eraldi klienditarkvara paigaldamiseks on olemas eraldi pakett kuid tavaliselt ei ole paigaldatud musta nimekirja (*blacklist*) kantud krüptovõtmete pakette:
+Soovi korral eraldi klienditarkvara paigaldamiseks on olemas eraldi pakett, kuid tavaliselt ei ole paigaldatud musta nimekirja (*blacklist*) kantud krüptovõtmete pakette:
 
 <pre>
 sudo apt update && sudo apt-get -y install openssh-client openssh-blacklist* && sudo ldconfig && sudo dpkg --configure -a && sudo apt-get clean
@@ -53,7 +53,7 @@ Võtmete haldusest on juttu allpool.
 <pre>$ scp -r /kohalik/kataloog/ kasutajanimi@kaugarvuti.com:/eemalasuv/kataloog/</pre>
 
 <b>Mugav sisselogimine OpenSSH serverarvutisse</b><br>
-Mugavaks sisselogimiseks võib tekitada võtmefaili - siis ei pea iga kord salasõna sisestama. Siiski esimesel korral sisestatakse salasõna kuid kogu seansi vältel (kuni väljalogimiseni) ei ole vaja uuesti sisestada. Võimalik on ka erinevate agentide abil salasõna meeldejätmist sessiooni jooksul hallata. Sellest täpsemalt näiteks [Arch wiki artiklis vastavas peatükis](https://wiki.archlinux.org/index.php/SSH_keys#SSH_agents).
+Mugavaks sisselogimiseks võib tekitada võtmefaili - siis ei pea iga kord salasõna sisestama. Siiski esimesel korral sisestatakse salasõna, kuid kogu seansi vältel (kuni väljalogimiseni) ei ole vaja uuesti sisestada. Võimalik on ka erinevate agentide abil salasõna meeldejätmist sessiooni jooksul hallata. Sellest täpsemalt näiteks [Arch wiki artiklis vastavas peatükis](https://wiki.archlinux.org/index.php/SSH_keys#SSH_agents).
 
 <b>Võtmepaari (salajane ja avalik võti) loomiseks:</b><br>
 <pre>
@@ -73,15 +73,15 @@ ssh-keygen -p [-P vana salasõna] [-N uus salasõna] [-f võtmefail]
 </pre>
 
 <b>Mitme serveri tugi võtmefailiga sisselogimiseks</b><br>
-Kui servereid on mitu siis on võimalik *-f* võtme abil luua igale serverile eraldi, siin näites tähistab *s1* esimest serverarvutit - mõistlik on valida selline nimi (ilma täpitähtede- ja tühikuteta), mis kõige paremini meelde jääb ja serverarvutit iseloomustab:<br>
+Kui servereid on mitu, siis on võimalik *-f* võtme abil luua igale serverile eraldi, siin näites tähistab *s1* esimest serverarvutit - mõistlik on valida selline nimi (ilma täpitähtede- ja tühikuteta), mis kõige paremini meelde jääb ja serverarvutit iseloomustab:<br>
 <pre>
 ssh-keygen -t rsa -b 4096 -C "Eesnimi Perenimi e-posti@aadress.ee" -f ~/.ssh/id_rsa_s1
 </pre>
 
-*ssh-keygen* võimaldab Linuxis luua RSA puhul kuni 16384-bit võtmeid kuid tulevikus võib see number ka muutuda. Väike paranoia on turvalisuse valdkonnas alati kasulik ja kui tegemist kriitiliste andmetega siis on kõrgendatud turvalisuse kasutamine omal kohal. Seoses kvantarvutite tulekuga muutub ka olukord krüptograafias ja täna turvalisena toimivad algoritmid murtakse üha kiiremini vastavalt kvantarvutite arenguga. Seni tuntud krüptograafia asemele peab tulema kvantkrüptograafia, mis tagab turvalisuse ka uuenenud olukorras.
+*ssh-keygen* võimaldab Linuxis luua RSA puhul kuni 16384-bit võtmeid kuid tulevikus võib see number ka muutuda. Väike paranoia on turvalisuse valdkonnas alati kasulik ja kui tegemist kriitiliste andmetega, siis on kõrgendatud turvalisuse kasutamine omal kohal. Seoses kvantarvutite tulekuga muutub ka olukord krüptograafias ja täna turvalisena toimivad algoritmid murtakse üha kiiremini vastavalt kvantarvutite arenguga. Seni tuntud krüptograafia asemele peab tulema kvantkrüptograafia, mis tagab turvalisuse ka uuenenud olukorras.
 
 <b>Uue põlvkonna turvalisus võtmefailiga sisselogimisel</b><br>
-Lisaks on olemas ka teisi algoritme, mida võimalik võtmepaari loomisel kasutada (vt *man ssh-keygen* ja uurida *-t* võimalusi) ja viimasel ajal on soovitav kasutada elliptilist krüptograafiat võimaldavat algoritmi Ed25519. Lisainfot leiab näiteks [Arch Linuxi wiki artiklist](https://wiki.archlinux.org/index.php/SSH_keys#Choosing_the_type_of_encryption) ja [Ed25519 kodulehelt](http://ed25519.cr.yp.to).
+Lisaks on olemas ka teisi algoritme, mida võimalik võtmepaari loomisel kasutada (vt *man ssh-keygen* ja uurige *-t* võimalusi) ja viimasel ajal on soovitav kasutada elliptilist krüptograafiat võimaldavat algoritmi Ed25519. Lisainfot leiab näiteks [Arch Linuxi wiki artiklist](https://wiki.archlinux.org/index.php/SSH_keys#Choosing_the_type_of_encryption) ja [Ed25519 kodulehelt](http://ed25519.cr.yp.to).
 
 <b>OpenSSH seadistuste kataloogi turvalisus</b><br>
 Kindlasti peavad olema tagatud vajalikud õigused: *~/.ssh/* kataloogi ning selle sisu saab ainult omanik vaadata-muuta, grupil ja teistel kasutajatel ei tohi mingeid õigusi olla:<br>
@@ -108,7 +108,7 @@ ssh-copy-id kasutaja@server
 
 ... kus "kasutaja" asemele kirjutada serverarvuti kasutajanimi ja "server" asemele serverarvuti IP-aadress või internetiaadress.
 
-Võtmefaili kopeerimiseks kliendiarvutist serverarvutisse kui võtmefail on teise nimega:<br>
+Võtmefaili kopeerimiseks kliendiarvutist serverarvutisse, kui võtmefail on teise nimega:<br>
 <pre>
 ssh-copy-id -i ~/.ssh/id_rsa_s1.pub kasutaja@server
 </pre>

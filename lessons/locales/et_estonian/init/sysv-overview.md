@@ -12,7 +12,7 @@ Kõige lihtsam viis tuvastada, kas kasutatakse *Sys V*'d on kontrollida kas eski
 * <i>dpkg -S /sbin/init</i>
 * <i>ps -p1</i>
 
-*Sys V* käivitab ja peatab protsesse järjekorras, näiteks, kui kui on soov käivitada protsess foo-b, peab enne kindlustama, et foo-a töötab. Seda tehakse skriptidega, mis käivitavad ja peatavad kasutaja jaoks protsesse. Neid võib ka ise krjutada kuid suuremal määral kasutatakse siiski opreatsioonisüsteemi sisseehitatud skripte, mida kasutatakse esmatähtsate teenuste laadimiseks.
+*Sys V* käivitab ja peatab protsesse järjekorras, näiteks, kui kui on soov käivitada protsess foo-b, peab enne kindlustama, et foo-a töötab. Seda tehakse skriptidega, mis käivitavad ja peatavad kasutaja jaoks protsesse. Neid võib ka ise kirjutada kuid suuremal määral kasutatakse siiski opreatsioonisüsteemi sisseehitatud skripte, mida kasutatakse esmatähtsate teenuste laadimiseks.
 
 Selle teostuse kasutamise eelisteks on suhteliselt lihtne sõltuvuste lahendamine, kuna foo-a tuleb alati enne foo-b'd. Kannatab aga töökiirus, kuna ainult üks asi käivitub või peatub korraga.
 
@@ -39,11 +39,11 @@ K10updates  K80openvpn
 
 Pöördudes 0 teenustasemele või siis sulgemise režiimi, märkame, et arvuti proovib käivitada skripti, et peatada uuendusteenused ja seejärel *openvpn*. Vaikimisi alglaadimise teenustaseme kuvamiseks võib vaadata faili */etc/inittab*. Samas kohas saab ka väikimisi seadet muuta.
 
-Tasuks täheldada, et *System V*'d vahetatakse vaikselt välja, kuid see ei pruug ka veel lähemat aastate jooksul juhtuda. Teenustasemeid võib kohata ka teiste *init*i teostuste juures. Seda põhiliselt, et toetada neid teenuseid, mida käivitatakse või peatatakse ainult *System V init*'i skriptidega.
+Tasuks täheldada, et *System V*'d vahetatakse vaikselt välja, kuid see ei pruugi ka veel lähemate aastate jooksul juhtuda. Teenustasemeid võib kohata ka teiste *init*i teostuste juures. Seda põhiliselt, et toetada neid teenuseid, mida käivitatakse või peatatakse ainult *System V init*'i skriptidega.
 
 ## Harjutus
 
-Kasutades *System V*'d muuta ära vaikimisi teenustase. Mida võib täheldada?
+Kasutades *System V*'d muutke ära vaikimisi teenustase. Mida võib täheldada?
 
 ## Küsimus
 

@@ -22,7 +22,7 @@ Märkasid aadressi <b>0.0.0.0</b>? See tähendab, et aadressi ei ole täpsustatu
 
 <b>*Gateway*</b>
 
-Saates pakette kohtvõrgust väljapoole, tuleb see edastada lüüsi aadressile. Lüüs ongi väga asjakohaselt lüüs teistesse võrkudesse.
+Saates pakette kohtvõrgust väljapoole, tuleb see edastada lüüsi aadressile. Lüüs ongi väga asjakohaselt "läbipääs" teistesse võrkudesse.
 
 <b>*Genmask*</b>
 
@@ -41,7 +41,7 @@ See on võrguliides, mille kaudu paketid väljuvad. *eth0* tähendab tavaliselt 
 
 ## Harjutus
 
-Vaadata marsruutimistabelit ja tuvastada kuhu pakette osatakse marsruutida.
+Vaadatke marsruutimistabelit ja tuvastage, kuhu pakette osatakse marsruutida.
 
 ## Küsimus
 

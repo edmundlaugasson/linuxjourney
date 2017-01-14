@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Vaatame näidet selle kohta, kuidas host leiab DNS'i abil domeeni (kiizudinternetis.com). Põhimõtteliselt kammitakse servereid kuni leitakse üks, mis otsitavat domeeni tunneb.
+Vaatame näidet selle kohta, kuidas host leiab DNS'i abil domeeni (kiizudinternetis.com). Põhimõtteliselt edastatakse päringuid, kuni leitakse üks, mis otsitavat domeeni tunneb.
 
 <b>Kohalik DNS server</b>
 
@@ -10,11 +10,11 @@ Esiteks küsib host "Kus asub kiizudinternetis.com?". Kohalik DNS server ei tea 
 
 <b>Juurserverid</b>
 
-Internetis on 13 juurserverit, need on dubleeritud ja jagatud üle maailma, et hallata Interneti DNS päringuid. Seega tegelikkuses töötab sadu serveid, mida kontrollivad erinevad organisatsioonid ja need sisaldavad informatsiooni tippdomeenide kohta. Tippdomeenid on näiteks  .org, .com ja .net aadressid. Seega juurserverid ei tea kus päritav aadress asub ja ta suunab meid edasi .com tippnimeserveri poole (annab selle serveri IP aadressi).
+Internetis on 13 juurserverit, need on dubleeritud ja jagatud üle maailma, et hallata Interneti DNS päringuid. Seega tegelikkuses töötab sadu serveid, mida kontrollivad erinevad organisatsioonid ja need sisaldavad informatsiooni tippdomeenide kohta. Tippdomeenid on näiteks  .org, .com ja .net aadressid. Seega juurserverid ei tea, kus päritav aadress asub ja ta suunab meid edasi .com tippnimeserveri poole (annab selle serveri IP aadressi).
 
 <b>Tippdomeenid TLD (*Top-Level Domain*)</b>
 
-Järgnevalt saadetakse päring serverile, mis teab ".com" aadresse. Kas see server teab kus kiizudinternetis.com asub? Sellel serveril ei ole otsitavat aadressi tsoonifailis kuid on olemas aadressile vastav nimeserver. Kasutajale antakse selle nimeserveri IP aadress ja palutakse sealt edasi otsida.
+Järgnevalt saadetakse päring serverile, mis teab ".com" aadresse. Kas see server teab kus kiizudinternetis.com asub? Sellel serveril ei ole otsitavat aadressi tsoonifailis, kuid on olemas aadressile vastav nimeserver. Kasutajale antakse selle nimeserveri IP aadress ja palutakse sealt edasi otsida.
 
 <b>Autoriteetne DNS server</b>
 

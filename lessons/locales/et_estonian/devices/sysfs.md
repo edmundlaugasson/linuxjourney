@@ -29,3 +29,4 @@ Millises kataloogis on seadmete detailne informatsioon?
 ## Vastus
 
 */sys*
+ 

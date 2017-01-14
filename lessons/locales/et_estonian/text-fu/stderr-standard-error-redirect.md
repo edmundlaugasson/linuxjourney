@@ -10,9 +10,9 @@ Vastuseks on midagi sellist:
 
 <pre>ls: /fake/directory ei ole kättesaadav: Faili või kataloogi ei eksisteeri</pre>
 
-Võib mõelda, et kas see teade ei oleks pidanud saadetama hoopis faili? Tegelikult on olemas veel üks sisend-väljundvoog, standardvea väljund (*stderr*). Vaikimisi saadab *stderr* oma väljundi ka muuhulgas ekraanile, see on *stdout* voost täiesti erinev ning ka selle väljundit tuleb teisiti suunata.
+Võib mõelda, et kas see teade ei oleks pidanud saadetama hoopis faili? Tegelikult on olemas veel üks sisend-väljundvoog, standardvea väljund (*stderr*). Vaikimisi saadab *stderr* oma väljundi ka ekraanile, see aga on *stdout* voost täiesti erinev ning ka selle väljundit tuleb teisiti suunata.
 
-Kahjuks ei ole see ümbersuunamise operaator sama kena, kui <b>&lt;</b> või <b>&gt;</b>, kuid see on üsna sarnane. Tuleb kasutada failikirjeldajat.  Failikirjeldaja on mittenegatiivne number, mida kasutatake faili voole ligipääsemiseks. Me süveneme sellesse hiljem, kuid praegu peab vaid teadma, et failikirjeldaja *stdin, stdout* ja *stderr* jaoks on vastavalt 0, 1 ja 2:
+Kahjuks ei ole see ümbersuunamise operaator sama lihtne, kui <b>&lt;</b> või <b>&gt;</b>, kuid on üsna sarnane. Siin tuleb kasutada failikirjeldajat.  Failikirjeldaja on mittenegatiivne number, mida kasutatake faili voole juurdepääsemiseks. Me süveneme sellesse hiljem, kuid praegu peab vaid teadma, et failikirjeldaja *stdin, stdout* ja *stderr* jaoks on vastavalt 0, 1 ja 2:
 <pre>
 0 <i>stdin</i>
 1 <i>stdout</i>
@@ -29,9 +29,9 @@ Aga mis saab siis, kui on vaja näha nii *stderr* kui ka *stdout* väljundit *p�
 
 <pre>$ ls /olematu/kataloog > pähklid.txt 2>&1</pre>
 
-See käsk saadab *ls /olematu/kataloog* tulemuse failile *pähklid.txt* ja seejärel suunab *stderr* väljundi *stdout*'le kasutades operaatorit *2>&1*. Siin on oluline toimingute järjekord, *2>&1* saadab *stderr*'i millelegi, millele *stdout* viitab. Hetkel viitab see failile. Seega kui avada fail *pähklid.txt*, peaks nägema mõlemat *stderr* ja *stdout* väljundit. Meie näite põhjal on ülemise käsu väljund ainult *stderr*.
+See käsk saadab *ls /olematu/kataloog* tulemuse failile *pähklid.txt* ja seejärel suunab *stderr* väljundi *stdout*-le kasutades operaatorit *2>&1*. Siin on oluline toimingute järjekord, *2>&1* saadab *stderr*'i millelegi, millele *stdout* viitab. Hetkel viitab see failile. Seega kui avada fail *pähklid.txt*, peaks nägema mõlemat *stderr* ja *stdout* väljundit. Meie näite põhjal on ülemise käsu väljund ainult *stderr*.
 
-Selline on lühem viis kuidas suunata faili mõlemad *stdout* ja *stderr*:
+Selline on lühem viis kuidas suunata faili mõlemad, nii *stdout* ja *stderr*:
 
 <pre>$ ls /olematu/kataloog &> pähklid.txt</pre>
 

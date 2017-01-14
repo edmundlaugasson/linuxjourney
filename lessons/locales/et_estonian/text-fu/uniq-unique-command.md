@@ -20,7 +20,7 @@ ajakiri
 
 ... ja soovitakse korduvatest eksemplaridest lahti saada. Selleks saab kasutada uniq käsku:
 
-<pre>$ uniq lugemin.txt
+<pre>$ uniq lugemine.txt
 raamat
 ajaleht
 artikkel

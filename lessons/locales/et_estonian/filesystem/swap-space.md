@@ -51,7 +51,7 @@ Tavaliselt peaks määrama kaks korda nii palju ruumi saalealale kui on mälu, k
 
 # Harjutus
 
-Luua USB pulga vabale alale saaleala.
+Tekitage USB pulga vabale alale saaleala.
 
 ## Küsimus
 

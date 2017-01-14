@@ -17,7 +17,7 @@ STAT tulbas võib näha palju väärtusi. Linuxi protsess võib olla üsna palju
 
 ## Harjutus
 
-Tutvuda süsteemis töötavate protsesside ja nende olekutega.
+Tutvuge süsteemis töötavate protsesside ja nende olekutega.
 
 ## Küsimus
 

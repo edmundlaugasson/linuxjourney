@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Kuna *Upstart* on Canonical'i välja töötatud, oli see mõnda aega Ubuntu*init*'i teostus. Kaasaegsematel Ubuntudel kasutatakse aga *systemd*'d. *Upstart* loodi selleks, et parandada mõningaid probleeme *Sys V*'ga, näiteks range alglaadimise protsess, tegumite blokeerimine jne. *Upstart*'i sündmustele ja töödele orienteeritud mudel lubab reageerida sündmustele jooksvalt.
+Kuna *Upstart* on Canonical'i poolt välja töötatud, oli see mõnda aega Ubuntu*init*'i teostus. Kaasaegsematel Ubuntu distributsioonidel kasutatakse aga *systemd*'d. *Upstart* loodi selleks, et parandada mõningaid probleeme *Sys V*'ga, näiteks range alglaadimise protsess, tegumite blokeerimine jne. *Upstart*'i sündmustele ja töödele orienteeritud mudel lubab reageerida sündmustele jooksvalt.
 
 Kui kasutajal on süsteemis kataloog */usr/share/upstart* on see päris hea vihje, et kasutusel on *Upstart*.
 
@@ -44,7 +44,7 @@ See tähendab, et võrgundust seatakse üles teenustasemel 2, 3 või 5 ja peatat
 
 ## Harjutus
 
-Kui arvutis on *Upstart*, uurida */etc/init* sisu. Kas seaded on arusaadavad?
+Kui arvutis on *Upstart*, uurige */etc/init* sisu. Kas seaded on arusaadavad?
 
 ## Küsimus
 

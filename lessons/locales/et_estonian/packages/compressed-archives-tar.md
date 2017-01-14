@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Enne kui rääida pakettide paigaldamisest ja erinevatest haldusprogrammidest, võiks rääkida failide arhiveerimisest ja tihendamisest, sest neid tuleb kindlasti internetist tarkvara jahtides ette.
+Enne kui rääida pakettide paigaldamisest ja erinevatest haldusprogrammidest, võiks rääkida failide arhiveerimisest ja tihendamisest, sest neid tuleb kindlasti internetist tarkvara otsides ette.
 
 Failid, mille laiend on .rar ja .zip on arhiivifailid. Nende sees on veel omakorda palju faile, kuid nad on kenasti üheks arhiivina tuntud failiks kokku pakitud.
 
@@ -42,17 +42,17 @@ Kahjuks ei saa *gzip* lisada arhiivi mitut faili. Õnneks saab seda teha *tar*'i
 
 <b>Arhiivide tihendamine ja lahtipakkimine *gzip*'i ja *tar*'iga</b>
 
-Tihti võib leida *tar* faile, mis on tihendatud: minutihendatudarhiiv.tar.gz. Sellisel juhul tuleb hakkata tegutsema väljast poolt sissepoole: esiteks eemaldame tihenduse *gunzip*iga ja seejärel pakime *tar* faili lahti. On ka võimalik kasutada <b>z</b> varianti, mis ütleb *tar*ile, et on vaja kasutada *gzip* või *gunzip* utiliiti.
+Tihti võib leida *tar* faile, mis on tihendatud: minutihendatudarhiiv.tar.gz. Sellisel juhul tuleb hakkata tegutsema väljast poolt sissepoole: esiteks eemaldame tihendamise *gunzip*iga ja seejärel pakime *tar* faili lahti. On ka võimalik kasutada <b>z</b> varianti, mis ütleb *tar*ile, et on vaja kasutada *gzip* või *gunzip* utiliiti.
 
 Tihendatud *tar* faili loomine:
 <pre>$ tar czf minufail.tar.gz</pre>
 
-Tihenduse eemaldamine ja lahti pakkimine:
+Tihendamise eemaldamine ja lahti pakkimine:
 <pre>$ tar xzf fail.tar</pre>
 
 Inglise keele tundmine aitab käsku meeles pidada: e<b>X</b>tract all <b>Z</b>ee <b>F</b>iles!
 
-*tar* on üks nendest käskudest, mis on väga oluline kuid, mida kunagi ei suudeta päriselt meelde jätta: <a href="https://xkcd.com/1168/">https://xkcd.com/1168/</a>
+*tar* on üks nendest käskudest, mis on väga oluline, kuid mida kunagi ei suudeta päriselt meelde jätta: <a href="https://xkcd.com/1168/">https://xkcd.com/1168/</a>
 
 <b>Teised haldusvahendid</b>
 
@@ -60,7 +60,7 @@ Mida rohkem kasutada Linuxit, seda rohkem puutub kokku erinevate arhiveerimis- j
 
 ## Harjutus
 
-Tutvuda *tar*'i dokumentatsiooniga ja uurida *man* leheküljelt erinevate kasutusvõimaluste kohta.
+Tutvuge *tar*'i dokumentatsiooniga ja uurige *man* leheküljelt erinevate kasutusvõimaluste kohta.
 
 ## Küsimus
 

@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Pakettide analüüsimisest võiks teha täiesti omaette kursuse ning ainult sellel teemal on kirjutatud terveid raamatuid. Siinkohal tutvume seega ainult baasteadmistega. Pakettide analüüsimiseks on kaks populaarset programmi: Wireshark ja tcpdump. Need tööriistad jälgivad võrguliideseid ja jäädvustavad pakettide liikumise, sõeluvad nende sisu ja edastavad saadud informatsiooni kasutajale kuvamiseks.  Selliste tööriistadega saab jõuda asja päris ivani. Kursuse näites kasutatakse tcpdumpi, kuna selle kasutajaliides on lihtsam. Kui aga peaks soovitama, millist programmi igapäevaseks kasutamiseks valida, soovitaksin kindlasti Wireshark'i.
+Pakettide analüüsimisest võiks teha täiesti omaette kursuse, ning ainult sellel teemal on kirjutatud terveid raamatuid. Siinkohal tutvume seega ainult baasteadmistega. Pakettide analüüsimiseks on kaks populaarset programmi: Wireshark ja tcpdump. Need tööriistad jälgivad võrguliideseid ja jäädvustavad pakettide liikumise, sõeluvad nende sisu ja edastavad saadud informatsiooni kasutajale kuvamiseks.  Selliste tööriistadega saab jõuda olulise  paketiinfoni. Kursuse näites kasutatakse tcpdumpi, kuna selle kasutajaliides on lihtsam. Kui aga peaks soovitama, millist programmi igapäevaseks kasutamiseks valida, soovitaksin kindlasti Wireshark'i.
 
 <b>tcpdump'i paigaldamine</b>
 
@@ -28,7 +28,7 @@ listening on wlan0, link-type EN10MB (Ethernet), capture size 65535 bytes
 11:28:31.190665 IP ThePickleParty.lan.51056 > 192.168.86.255.rfe: UDP, length 306
 </pre>
 
-Kui pakettide püüdmine käivitada siis võib märgata, et toimub väga palju asju. See on ootuspärane kuna taustal toimub pidevalt üsna palju võrguliiklust. Näites on toodud väike väljavõte, täpsemalt sellest hetkest kui teostati ping veebilehele www.google.com
+Kui pakettide püüdmine käivitada, siis võib märgata, et toimub väga palju asju. See on ootuspärane, kuna taustal toimub pidevalt üsna palju võrguliiklust. Näites on toodud väike väljavõte, täpsemalt sellest hetkest kui teostati ping veebilehele www.google.com
 
 <b>Väljundi tõlgendamine</b>
 
@@ -52,11 +52,11 @@ Nagu tcpdump'i väljundist näha võib, saadetakse www.google.com aadressile ICM
 $ sudo tcpdump -w /mingi/fail
 </pre>
 
-Mõned mõtted lõpetuseks: Pakettide analüüsi teema sai siinkohal küll ainult väga kergelt puudutatud. Nii palju asju saab uurida ja me isegi ei maininud heksa- või ASCII väljundeid. Internetist on võimalik leida hulgaliselt materjale pakettide analüüsi vahendite kohta ja siinkohal ärgitame kasutajat neid leidma ja neist õppima.
+Mõned mõtted lõpetuseks: Pakettide analüüsi teema sai siinkohal küll ainult väga kergelt puudutatud. On palju nüansse, mida saab uurida ja me isegi ei maininud heksa- või ASCII väljundeid. Internetist on võimalik leida hulgaliselt materjale pakettide analüüsi vahendite kohta ja siinkohal ärgitame kasutajat neid leidma ja neist õppima.
 
 ## Harjutus
 
-Laadida alla ja paigaldada *Wireshark* ning mängida natuke võrguliidesega.
+Laadige arvutisse ja paigaldage *Wireshark* ning "mängige" natuke võrguliidesega.
 
 ## Küsimus
 

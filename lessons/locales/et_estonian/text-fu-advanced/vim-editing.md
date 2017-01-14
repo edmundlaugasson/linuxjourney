@@ -14,7 +14,7 @@ Nüüd kui oleme kirjutanud mõned read, redigeerime natuke ja eemaldame ebavaja
 
 ## Harjutus
 
-See peatükk tutvustas veidraid käske, ava oma tekstiredaktor ja proovi neid kasutada.
+See peatükk tutvustas veidraid käske, avage oma tekstiredaktor ja proovige neid kasutada.
 
 ## Küsimus
 

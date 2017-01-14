@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Enne kui failisüsteemi sisu vaadata saab, peab selle külgeühendama. Selleks on aga vaja teada seadme otsiteekonda, failisüsteemi tüüpi ja haakepunkti. Haakepunkt on see kataloog, kuhu failisüsteem on ühendatud. Seega, seadmeid ühendatakse haakepunkti.
+Enne kui failisüsteemi sisu vaadata saab, peab selle külge ühendama - "haakima". Selleks on aga vaja teada seadme otsiteekonda, failisüsteemi tüüpi ja haakepunkti. Haakepunkt on see kataloog, kuhu failisüsteem on ühendatud. Seega, seadmeid ühendatakse haakepunkti.
 
 Esiteks tuleb luua haakepunkt, meie näite puhul <b>mkdir /minupulk</b>.
 
@@ -35,7 +35,7 @@ Enamjaolt ei ole tarvis kasutada UUID'd, seadme nime on palju mugavam kasutada j
 
 ## Harjutus
 
-Vaadata *mount* ja *unmount* käskude *man* lehekülge ning tutvuda nende kasutamise võimalustega.
+Vaadake *mount* ja *unmount* käskude *man* lehekülge ning tutvuge nende kasutamise võimalustega.
 
 ## Küsimus
 

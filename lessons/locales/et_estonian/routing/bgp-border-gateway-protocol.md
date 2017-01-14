@@ -8,7 +8,7 @@ Viimane oluline protokoll on välislüüsi protokoll BGP (*Border Gateway Protoc
 
 ## Harjutus
 
-Harjutust pole.
+Harjutust pole. 
 
 ## Küsimus
 

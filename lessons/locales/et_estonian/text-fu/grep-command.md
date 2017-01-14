@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Grep on kõige tavalisem tekstitöötlemise käsk. See võimaldab otsida failist tähemärke, mis vastavad teatud mustrile. Mis siis kui tahta teada, kas mingi fail eksisteerib mingis konkreetses kataloogis või kas mingis failis asub otsitav sõne? Kindlasti ei hakkaks keegi kogu teksti läbi otsima vaid kasutaks grep'i!
+Grep on kõige tavalisem tekstitöötlemise käsk. See võimaldab otsida failist tähemärke või sõnesid, mis vastavad teatud mustrile. Kuidas toimida, kui tahetakse teada, kas mingi fail eksisteerib mingis konkreetses kataloogis või kas mingis failis asub otsitav sõne? Kindlasti ei hakka keegi kogu teksti läbi otsima, vaid kasutaks grep'i!
 
 Kasutame näitena näide.txt faili:
 
@@ -14,7 +14,7 @@ Saab otsida ka väike- ja suurtähedele mittetundlikku teksti, kui kasutada lipp
 
 <pre>$ grep -i mingimuster mingifail</pre>
 
-Et veelgi paindlikkust lisada, võib *grep*'i kombineerida teiste käskudega | operaatoriga.
+Et veelgi paindlikkust lisada, võib *grep*'i kombineerida teiste käskudega kasutades | operaatorit.
 
 <pre>$ env | grep -i Kasutaja</pre>
 
@@ -22,11 +22,11 @@ Nagu näha, on grep väga mitmekülgne. Mustris võib kasutada ka regulaaravaldi
 
 <pre>$ ls /mingikat | grep '.txt$'</pre>
 
-Peaks kuvama kataloogist mingikat kõik TXT-tüüpi tekstifailid.
+Peaks kuvama kataloogist "mingikat" kõik TXT-tüüpi tekstifailid.
 
 ## Harjutus
 
-Ehk ollakse kuulnud käskudest *egrep* ja *fgrep*, need on nüüd vananenud ning asendatud käskudega *grep -E* ja *grep -F*. Lugeda *grep*'i man lehekülge ja saab rohkem teada.
+Ehk ollakse kuulnud käskudest *egrep* ja *fgrep*, need on nüüd vananenud ning asendatud käskudega *grep -E* ja *grep -F*. Lugege *grep*'i man lehekülge ja saate rohkem teada.
 
 ## Küsimus
 

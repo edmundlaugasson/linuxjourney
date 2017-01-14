@@ -40,7 +40,7 @@ Teine osa on ketta kasutamise kohta:
 
 ## Harjutus
 
-Kasutada *iostat*'i ketta kasutuse kuvamiseks.
+Kasutage *iostat*'i ketta kasutuse kuvamiseks.
 
 ## Küsimus
 

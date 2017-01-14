@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-*Upstart* võib algatada palju sündmusi ja töid, paraku aga ei ole kerge tuvastada, kust midagi neist pärineb. Selleks tuleb natuke sobrada kataloogis */etc/init*. Suurema tõenäosusega pole kasutajal aga kunagi vaja *Upstart*'i sätete faile vaadata, kuid need võimaldavad soovi korral mingeid spetsiifilisi töid paremini kontrollida. *Upstart* süsteemis on võimalik kasutada hulgaliselt kasulikke käske.
+*Upstart* võib algatada palju sündmusi ja töid, paraku aga ei ole kerge tuvastada, kust midagi neist pärineb. Selleks tuleb natuke uurida kataloogi */etc/init*. Suurema tõenäosusega pole kasutajal aga kunagi vaja *Upstart*'i sätete faile vaadata, kuid need võimaldavad soovi korral mingeid spetsiifilisi töid paremini kontrollida. *Upstart* süsteemis on võimalik kasutada hulgaliselt kasulikke käske.
 
 <b>Tegumite kuvamine</b>
 
@@ -21,7 +21,7 @@ Kuvatakse nimekiri *Upstart*'i töödest neile rakendatud erinevate olekutega. I
 networking start/running
 </pre>
 
-Siin kursusel ei minda *Upstart*'i tööde seadete kirjutamise oskuse osas detailidesse kuid juba on tutvustatud, et nende seadete kaudu töid alustatakse, peatatakse ja taaskäivitatakse. Töödest võivad käivituda ka teised tegumid. Olulisemad *Upstart*'i manuaalsed käsud käiakse siinkohal üle kuid kui huvi on suurem peaks uurima lähemalt  .conf faile.
+Siin kursusel ei minda *Upstart*'i tööde seadete kirjutamise oskuste osas detailidesse, aga juba on tutvustatud, et nende seadete kaudu töid alustatakse, peatatakse ja taaskäivitatakse. Töödest võivad käivituda ka teised tegumid. Olulisemad *Upstart*'i manuaalsed käsud käiakse siinkohal üle, kuid kui huvi on suurem peaks uurima lähemalt  .conf faile.
 
 <b>Käivita töö käsitsi</b>
 
@@ -41,7 +41,7 @@ Siin kursusel ei minda *Upstart*'i tööde seadete kirjutamise oskuse osas detai
 
 ## Harjutus
 
-Kuvada *Upstart* tööde nimekiri. Muuta mõne tegumi olekut äsja õpitud käskudega. Mida võib selle tagajärjel märgata?
+Kuvage *Upstart* tööde nimekiri. Muutke mõne tegumi olekut äsja õpitud käskudega. Mida võib selle tagajärjel märgata?
 
 ## Küsimus
 

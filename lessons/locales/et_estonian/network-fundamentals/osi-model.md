@@ -6,7 +6,7 @@ Enne praktilisema võrguteemalise materjali juurde asumist tuleb üle käia mõn
 
 ## Harjutus
 
-Lugeda OSI mudeli kohta: <a target="_blank" href="https://en.wikipedia.org/wiki/OSI_model">https://en.wikipedia.org/wiki/OSI_model</a> ja lisaks eesti keeles <a target="_blank" href="https://et.wikipedia.org/wiki/TCP/IP_mudel">https://et.wikipedia.org/wiki/TCP/IP_mudel</a>
+Lugege OSI mudeli kohta: <a target="_blank" href="https://en.wikipedia.org/wiki/OSI_model">https://en.wikipedia.org/wiki/OSI_model</a> ja lisaks eesti keeles <a target="_blank" href="https://et.wikipedia.org/wiki/TCP/IP_mudel">https://et.wikipedia.org/wiki/TCP/IP_mudel</a>
 
 ## Küsimus
 

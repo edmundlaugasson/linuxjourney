@@ -23,7 +23,7 @@
 
 ## Harjutus
 
-Harjutust pole
+Harjutust pole.
 
 ## Küsimus
 

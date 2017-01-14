@@ -64,3 +64,4 @@ Millist sümbolit kasutatakse tähemärgiseadmete jaoks *ls -l* käsuga?
 ## Vastus
 
 c
+ 

@@ -16,6 +16,7 @@ banaan.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72
 
 Rakendada *file* käsku erinevatel kataloogidel ja failidel ning uurida väljundit.
 
+
 ## Küsimus
 
 Millise käsuga saab teada failitüübi?

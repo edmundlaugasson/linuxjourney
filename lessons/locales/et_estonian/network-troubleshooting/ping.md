@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Ühte lihtsaimat võrgu tööriista <b>ping</b>'i kasutatakse selleks, et testida kas paketid on võimelised jõudma sihtkohta. See töötab saates ICMP kajapäringu (tüüp 8) paketi sihkohta ning ootab seejärel ICMP kajapäringule vastust (tüüp 0). Ping on edukas kui väljasaadetud pakettidele tulevad sihtkohast vastused. Vaatame näidet:
+Ühte lihtsaimat võrgu tööriista <b>ping</b>'i kasutatakse selleks, et testida, kas paketid on võimelised jõudma sihtkohta. See töötab saates ICMP kajapäringu (tüüp 8) paketi sihkohta ning ootab seejärel ICMP kajapäringule vastust (tüüp 0). Ping on edukas, kui väljasaadetud pakettidele tulevad sihtkohast vastused. Vaatame näidet:
 
 <pre>
 pete@icebox:~$ ping -c 3 www.google.com
@@ -18,7 +18,7 @@ Esimene osa ütleb, et saadetakse 64-baidine pakett aadressile 74.125.239.112 (g
 
 <b>icmp_seq</b>
 
-See väli kajastab saadetava paketi järjekorranumbrit. Nagu näha siis meie näites saadeti kolm paketti ja neile saadi ka vastused. Kui kajapäringu vastuses on mõned numbrid vahelt puudu, võib see tähendada, et pakettide saatmisel esines võrguühenduses mingisugune tõrge ja kõik paketid ei jõudnud sihtkohta pärale. Kui järjekorranumbrid on paigast ära võib see tähendada, et ühendus on väga aeglane ja vastus ei saabu vaikimisi määratud ühe sekundi jooksul.
+See väli kajastab saadetava paketi järjekorranumbrit. Nagu näha siis meie näites saadeti kolm paketti ja neile saadi ka vastused. Kui kajapäringu vastuses on mõned numbrid vahelt puudu, võib see tähendada, et pakettide saatmisel esines võrguühenduses mingisugune tõrge ja kõik paketid ei jõudnud sihtkohta pärale. Kui järjekorranumbrid on segipaisatud, võib see tähendada, et ühendus on väga aeglane ja vastus ei saabu vaikimisi määratud ühe sekundi jooksul.
 
 <b>ttl</b>
 
@@ -30,7 +30,7 @@ See väli kajastab ringreisi aega, mis kulus kajapäringu paketi saatmisest kuni
 
 ## Harjutus
 
-Teostada ping mõnele veebileheküljele ja uurida väljundit.
+Teostade ping mõnele veebileheküljele ja uurige väljundit.
 
 ## Küsimus
 

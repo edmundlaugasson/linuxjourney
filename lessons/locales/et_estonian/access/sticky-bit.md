@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Veel viimane eriline õiguse bitt millest räägime on kleepuv bitt.
+Veel viimane ja eriline õiguse bitt, millest räägime, on kleepuv bitt.
 
 See bitt ütleb, et ainult faili omanik või juurkasutaja tohib antud faili muuta. See on väga kasulik jagatud kataloogide puhul. Vaatame näidet:
 

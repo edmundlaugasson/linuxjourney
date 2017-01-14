@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Eelmises tunnis õppiti, et saab kasutada erinevaid *stdout* (standardväljundi) vooge, näiteks faili või ekraani. Samamoodi on olemas ka standardsisendi (*stdin*) vood. Teame, et on olemas *stdin* seadmetelt nagu klaviatuur, kuid võib kasutada ka faile, teiste protsesside väljundeid ning ka terminali. Vaatame näidet.
+Eelmises tunnis õppisime, et saab kasutada erinevaid *stdout* (standardväljundi) vooge, näiteks faili või kuvasse ekraanil. Samamoodi on olemas ka standardsisendi (*stdin*) vood. Teame, et on olemas *stdin* seadmetelt nagu klaviatuur, kuid võib kasutada ka faile, teiste protsesside väljundeid ning ka terminali. Vaatame näidet.
 
 Kasutame selle näite jaoks eelmise tunni *pähklid.txt* faili. Meenutame, et seal oli sees tekst *Hello World*.
 
@@ -14,7 +14,7 @@ Tavaliselt saadetakse *cat* käsu puhul fail sisendisse ja sellest saab *stdin* 
 
 ## Harjutus
 
-Proovida paari käsku:
+Proovige jõrgmisi käske:
 <pre>
 $ echo <b>&lt;</b> pähklid.txt <b>&gt;</b> banaan.txt
 $ ls <b>&lt;</b> pähklid.txt <b>&gt;</b> banaan.txt

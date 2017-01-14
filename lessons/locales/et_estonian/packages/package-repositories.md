@@ -3,7 +3,7 @@
 ## Tunni sisu
 
 
-Kuidas saavad internetti üleslaetud paketid ühtäkki kasutajate arvutitesse? Kas peab minema iga paketi leheküljele ja laadima nad alla ja paigaldama? Tegelikult võib seda muidugi ka nii teha kuid on olemas palju parem lahendus, mida nimetatakse paketihoidlateks. Need ongi lihtsalt kesksed hoidlad pakettide jaoks. On olemas palju hoidlaid rikkaliku paketivalikuga ja mis kõige parem - need on kõik ka internetipõhiselt kättesaadavad ja tobedaid paigaldamiskettaid pole üldse tarvis. Küll aga ei oska arvutid ise ilma kasutaja abita neid hoidlaid otsida.
+Kuidas saavad internetti üleslaetud paketid ühtäkki kasutajate arvutitesse? Kas peab minema iga paketi leheküljele ja laadima nad alla ja paigaldama? Tegelikult võib seda muidugi ka nii teha, kuid on olemas palju parem lahendus, mida nimetatakse paketihoidlateks. Need ongi lihtsalt kesksed hoidlad pakettide jaoks. On olemas palju hoidlaid rikkaliku paketivalikuga ja mis kõige parem - need on kõik ka internetipõhiselt kättesaadavad ja paigaldamiskettaid, nagu kunagi oli, pole üldse tarvis. Küll aga ei oska arvutid ise ilma kasutaja abita neid hoidlaid otsida.
 
 Näiteks kasutaja soovib oma arvutisse paigaldada *WackyWidgets* tarkvara. *WackyWidgets* haldab ise enda pakettide hoidlaid. Hoidlates on 10 paketti: *CoolWidget, SuperWidget* jne. *WackyWidget* hoiab oma hoidlat aadressil http://download.widgets/linux/deb/.
 

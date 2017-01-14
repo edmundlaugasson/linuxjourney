@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Regulaaravaldised on võimsad tööriistad mustril põhineva valiku teostamiseks. See kasutab erilist kirjapilti, mis sarnaneb natuke sellele, millega oleme juba kokku puutunud, näiteks metamärk *.
+Regulaaravaldised on võimsad tööriistad mingil mustril põhineva valiku teostamiseks. See kasutab erilist kirjapilti, mis sarnaneb natuke sellele, millega oleme juba kokku puutunud, näiteks metamärk *.
 
 Võtame läbi mõned kõige tavalisemad regulaaravaldised, mis on peaaegu universaalsed ükskõik millises programmeerimiskeeles.
 
@@ -34,14 +34,14 @@ saaks vasteks by
 
 <b>4. Sulgude [] ja () kasutamine</b>
 
-See võib olla natuke keerulisem, sulud lubavad meil täpsustada, mis häälikuid nende seest võib leida.
+See võib olla natuke keerulisem, sest sulud lubavad meil täpsustada, milliseid (tähe)märke nende seest võib leida.
 
 <pre>
 d<b>[iou]</b>g
 saaks vasteks: dig, dog, dug
 </pre>
 
-Kui kasutada ankursilti ^ sulgude sees, tähendab see, et peetakse silmas kõiki tähemärke, peale nende mis sulgudes on.
+Kui kasutada ankursilti ^ sulgude sees, tähendab see, et peetakse silmas kõiki tähemärke, peale nende mis sulgudes on. Ehk siinkohal toimub välistav valik.
 
 <pre>
 d<b>[^i]</b>g
@@ -55,7 +55,7 @@ d<b>[a-c]</b>g
 leiab vasteks dag, dbg, ja dcg
 </pre>
 
-Ole ettevaatlik, sulud on tõstutundlikud.
+Tähelepanuks: sulud on tõusutundlikud!
 
 <pre>
 d<b>[A-C]</b>g
@@ -66,7 +66,7 @@ Ja need ongi mõned põhilised regulaaravaldised.
 
 ## Harjutus
 
-Proovi kombineerida regulaaravaldisi grep'iga ja vaata läbi mõned failid.
+Proovige kombineerida regulaaravaldisi grep'iga ja vaadake läbi mõned failid.
 
 <pre>
 grep [siia regulaaravaldis] [fail]

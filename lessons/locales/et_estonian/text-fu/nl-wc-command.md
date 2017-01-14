@@ -32,11 +32,11 @@ kilpkonnad
 
 ## Harjutus
 
-Kuidas saab *nl* käsku kasutades faili lõpliku ridade arvu ilma, et peaks kogu väljundit läbi vaatama? Vihje: Kasuta mõningaid teisi käske, mida sellel kursusel juba õppinud oled.
+Kuidas saab *nl* käsku kasutades faili lõpliku ridade arvu ilma, et peaks kogu väljundit läbi vaatama? Vihje: Kasutage mõningaid teisi käske, mida sellel kursusel on juba õpitud.
 
 ## Küsimus
 
-Millist käsku kasutaksid, et saada failist ainult lõplik sõnade arv.
+Millist käsku kasutaksite, et saada failist ainult lõplik sõnade arv.
 
 ## Vastus
 

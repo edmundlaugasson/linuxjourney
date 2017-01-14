@@ -76,7 +76,7 @@ Võib ka täpsustada protsessi ID kui on huvi mingi kindla protsessi vastu:
 
 ## Harjutus
 
-Uurida *top* käsku. Uurida, millised protsessid kasutavad kõige rohkem ressursse.
+Uurige *top* käsku. Selgitage, millised protsessid kasutavad kõige rohkem ressursse.
 
 ## Küsimus
 

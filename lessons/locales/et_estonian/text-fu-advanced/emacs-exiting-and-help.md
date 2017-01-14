@@ -16,11 +16,11 @@ Kui sel hetkel on avatud puhvreid, siis palutakse need enne väljumist salvestad
 
 <pre>C-x u</pre>
 
-Nagu isegi näed on Emacs'il rohkem liikuvaid osi ja selle õppimine on alguses natuke raskem. Vastutasuks saad aga väga võimsa tekstiredaktori.
+Nagu näha, on Emacs'il rohkem liikuvaid osi ja selle õppimine on alguses natuke raskem. Vastutasuks omandatakse aga väga võimsa tekstiredaktori kasutamine.
 
 ## Harjutus
 
-Külasta Emacs'i veebilehte, et rohkem käske ära õppida. <a href="https://www.gnu.org/software/emacs/">Emacs</a>
+Külastage Emacs'i veebilehte, et rohkem käske ära õppida. <a href="https://www.gnu.org/software/emacs/">Emacs</a>
 
 ## Küsimus
 

@@ -16,7 +16,7 @@ Sobib igale platvormile: töölaua-, sülearvutile ja serverile.
 
 ## Harjutus
 
-Kui sul on huvi kasutada Ubuntut enda operatsioonisüsteemina, mine vaata paigaldusjuhist ja proovi ära: <a href='http://www.ubuntu.com/'>http://www.ubuntu.com/</a>
+Kui on huvi kasutada Ubuntut arvuti operatsioonisüsteemina, tasub vaadata paigaldusjuhist ja proovida: <a href='http://www.ubuntu.com/'>http://www.ubuntu.com/</a>
 
 ## Küsimus
 

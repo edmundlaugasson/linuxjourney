@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Linuxis on kõik asjad failid. Mida sügavamale Linuxi maailma rännata, seda paremini hakatakse seda mõistma. Hetkel pidada see aga lihtsalt meeles. Kõik failid on organiseeritud hierarhilise kataloogipuuna. Failisüsteemi esimese kataloogi nimi on väga asjakohaselt juurkataloog. Juurkataloogis asub palju kaustu ja faile, milles omakorda asub veel kaustu ja faile jne. Näide, kuidas kataloogi puu võib välja näha:
+Linuxis on kõik organiseeritud failidena. Mida sügavamale Linuxi maailma tungida, seda paremini hakatakse seda mõistma. Hetkel pidagem see lihtsalt meeles. Kõik failid on organiseeritud hierarhilise kataloogipuuna. Failisüsteemi esimese kataloogi nimi on väga asjakohaselt juurkataloog. Juurkataloogis asub palju kaustu ja faile, milles omakorda asub veel kaustu ja faile jne. Näide, kuidas kataloogi puu võib välja näha:
 
 <pre>/
 |-- bin
@@ -24,7 +24,7 @@ Failisüsteemis, nagu ka reaalses maailmas, teeb navigeerumise oluliselt lihtsam
 
 <pre>$ pwd</pre>
 
-Kus sa oled? Kus mina olen? Proovi järgi.
+Kus kataloogis hetkel ollakse? Proovige järgi uurida.
 
 ## Harjutus
 

@@ -27,7 +27,7 @@ Nüüd peaks kõik sõnad olema ühes reas tühikutega eraldatud.
 
 ## Harjutus
 
-Proovida *paste* käsku mitme faili peal. Mis juhtub?
+Proovige *paste* käsku mitme faili peal. Mis juhtub?
 
 ## Küsimus
 

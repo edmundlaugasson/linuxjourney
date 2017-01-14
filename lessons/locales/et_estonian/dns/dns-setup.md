@@ -16,7 +16,7 @@ Väikesemahuline ja palju lihtsam seadistada kui BIND. Kui soov on kasutada mida
 
 Kõikide võimalustega ja sarnane BIND'ile, pakub see natuke rohkem paindlikkust ja võimalusi. Informatsiooni loetakse mitmetest andmebaasidest, näiteks MySQL, PostgreSQL jne, tehes administreerimise lihtsamaks. Lihtsalt selle pärast, et BIND on olnud kogu aeg eelistatuim variant ei tähenda, et see peaks alatiseks nii jääma.
 
-See ei ole loomulikult ammendav nimekiri kuid võiks anda aimu, mida DNS serveri üles seadmisel otsida.
+See ei ole loomulikult ammendav nimekiri kuid võiks anda aimu, mida DNS serveri ülesseadmisel otsida.
 
 ## Harjutus
 

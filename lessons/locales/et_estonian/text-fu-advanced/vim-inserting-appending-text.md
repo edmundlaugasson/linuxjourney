@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Võis märgata, et kui üritada teksti sisestada, siis see ei õnnestu. See on nii, kuna asutakse käsurežiimis. See võib muutuda päris keeruliseks, eriti kui tahta ainult avada faili ja teksti sisestada. Käsurežiimi kasutatakse käskude nagu h,j,k,l jne sisestamiseks. Selleks, et sisestada teksti, peab enne sisenema sisestusrežiimi
+Võis märgata, et kui üritada teksti sisestada, siis see ei õnnestu. See on nii, kuna asutakse käsurežiimis. See võib muutuda päris keeruliseks, eriti kui on vaja ainult avada fail ja teksti sisestada. Käsurežiimi kasutatakse käskude nagu h,j,k,l jne sisestamiseks. Selleks, et sisestada teksti, peab enne sisenema sisestusrežiimi
 
 <ul>
 <li>i - sisesta tekst kursori ette</li>
@@ -12,11 +12,11 @@ Võis märgata, et kui üritada teksti sisestada, siis see ei õnnestu. See on n
 <li>A - lisa tekst rea lõppu</li>
 </ul>
 
-Kui siseneda ühte nendest sisestusrežiimidest siis näitab ka vim alumises servas, et ollakse sisestusrežiimis. Et väljuda sisestusrežiimist ja minna tagasi käsurežiimi, vajutada lihtsalt Esc klahvi.
+Kui siseneda ühte nendest sisestusrežiimidest, siis näitab ka vim alumises servas, et ollakse sisestusrežiimis. Et väljuda sisestusrežiimist ja minna tagasi käsurežiimi, vajutada lihtsalt Esc klahvi.
 
 ## Harjutus
 
-Mängi natuke režiimide vahetamisega.
+Katsetage eri reziimide vahetamist.
 
 ## Küsimus
 

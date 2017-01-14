@@ -28,11 +28,11 @@ Märgiks ära, et */etc/passwd* faili saab ka käsitsi muuta, kui on vaja lisada
 
 ## Harjutus
 
-Vaadata faili */etc/passwd* ning uurida milliseid õigusi erinevatel kasutajatel on.
+Vaadage faili */etc/passwd* ning uurige milliseid õigusi erinevatel kasutajatel on.
 
 ## Küsimus
 
-Kuidas on märgitud failis */etc/passwd*, kui kasutajal puudub sisselogimise õigus?
+Kuidas on tähistatud failis */etc/passwd* see, et kasutajal puudub sisselogimise õigus?
 
 ## Vastus
 

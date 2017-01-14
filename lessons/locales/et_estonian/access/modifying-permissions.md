@@ -4,7 +4,7 @@
 
 Ligipääsuõgusi saab kergesti muuta <b>chmod</b> käsuga.
 
-Esmalt tuleb valida õigused, mida soovitakse muuta kasutaja, grupi ja teiste jaoks. Õigusi saab lisada või eemaldada <b>+</b> ja <b>-</b> märkidega, kehtestada <b>=</b> abil.
+Esmalt tuleb valida õigused, mida soovitakse muuta kasutaja, grupi ja teiste kasutajate jaoks. Õigusi saab lisada või eemaldada <b>+</b> ja <b>-</b> märkidega, kehtestada <b>=</b> abil.
 
 Õigused tähtedega:
 * <i>r(ead)</i> - lugeda
@@ -38,6 +38,8 @@ $ chmod u-x minufail
 $ chmod ug+w
 </pre>
 
+Katsetage terminalis seda näidet, et saaksite aru, kelle ja millises õigused muutusid.
+
 Õigusi on võimalik muuta ka kasutades numbriformaati. See võimaldab muuta kõiki õigusi üheaegselt. Selle asemel, et kasutada sümboleid r,w ja x, kasutatakse õiguste esitamiseks numbreid. Ei ole ka tarvis täpsustada grupi g märgiga või kasutajat u'ga.
 
 Numbriline esitus:
@@ -63,7 +65,7 @@ Kas lugeja oskab arvata millised õigused failile anti? Vaatame seda lähemalt. 
 
 5 = 4 + 1, teistel kasutajatel on lugemise ja käivitamise õigused
 
-Märkus: mõtlematult nalja pärast ei tohiks õigusi muutma hakata. Näiteks võib mõni tundlikku informatsiooni sisaldav fail sattuda valedesse kätesse. Kuid ka nendel kordadel kui õigusi on tarvis muuta asja pärast, tasuks samuti säilitada ettevaatus.
+Märkus: mõtlematult nalja pärast ei tohiks õigusi muutma hakata. Näiteks võib mõni tundlikku informatsiooni sisaldav fail sattuda valedesse kätesse. Kuid ka nendel kordadel, kui õigusi on tarvis muuta tegeliku vajaduse pärast, tasuks samuti olla ettevaatlik.
 
 Lisalugemist leiab aadressilt <a target="_blank" href="http://kuutorvaja.eenet.ee/kasutamine/os/failioigused.html">http://kuutorvaja.eenet.ee/kasutamine/os/failioigused.html</a>
 
@@ -71,7 +73,7 @@ Lisalugemist leiab aadressilt <a target="_blank" href="http://kuutorvaja.eenet.e
 
 ## Harjutus
 
-Muuta lihtsate tekstifailide õigusi ja kasutades *ls -l* käsku jälgida, kuidas bitid selle käigus muutuvad.
+Muuta lihtsate tekstifailide õigusi, ja kasutades *ls -l* käsku jälgida, kuidas vastavad bitid selle käigus muutuvad.
 
 ## Küsimus
 

@@ -4,7 +4,7 @@
 
 Join käsk lubab ühise välja kaudu liita kokku mitu faili:
 
-Näiteks kaks faili, mida on vaja kokku liita:
+Näiteks olgu kaks faili, mida on vaja kokku liita:
 
 <pre>fail1.txt
 1 John

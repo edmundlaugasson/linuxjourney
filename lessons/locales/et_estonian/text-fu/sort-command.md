@@ -42,7 +42,7 @@ lind
 
 ## Harjutus
 
-*Sort* käsu tõeline jõud tuleneb võimalusest kasutada seda koos teiste käskudega. Proovida järgmist käsku ja vaadata, mis juhtub?
+*Sort* käsu tõeline jõud tuleneb võimalusest kasutada seda koos teiste käskudega. Proovige järgmist käsku ja vaadake, mis juhtub?
 
 <pre>$ ls /etc | sort -rn</pre>
 

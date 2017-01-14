@@ -28,7 +28,7 @@ $ ip neighbour show
 
 ## Harjutus
 
-Vaadelda, mis toimub ARP tabelis pärast arvuti käivitamist kui hakata võrgus millegagi tegelema.
+Vaadelge, mis toimub ARP tabelis pärast arvuti käivitamist, kui hakata võrgus millegagi tegelema.
 
 ## Küsimus
 

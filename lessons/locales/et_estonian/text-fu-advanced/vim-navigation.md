@@ -17,7 +17,7 @@ Selles peatükis harjutust ei ole.
 
 ## Küsimus
 
-Millise tähe klahviga saab liikuda rea allapoole?
+Millise täheklahviga saab liikuda reakaupa allapoole?
 
 ## Vastus
 
