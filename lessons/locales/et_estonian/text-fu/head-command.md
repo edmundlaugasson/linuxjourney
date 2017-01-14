@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Ütleme, et meil on väga pikk fail, meil on isegi mitu, mille hulgast valida, proovida cat /var/log/syslog. Peaks nägema lehekülgede kaupa teksti.  Mis siis kui tahta näha ainult paari esimest tekstifaili rida? Seda saab teha käsuga head. Vaikimisi näitab head käsk faili esimest 10 rida.
+Oletame, et meil on väga pikk fail, meil on neid isegi mitu, mille hulgast valida, proovige cat /var/log/syslog. Peaksite nägema lehekülgede kaupa teksti.  Mis siis, kui piisab ainult paarist esimesest tekstifaili reast? Neid saab kuvada käsuga head. Vaikimisi näitab head käsk faili esimest 10 rida.
 
 <pre>$ head /var/log/syslog</pre>
 
@@ -20,7 +20,7 @@ Mida teeb järgnev käsk ja miks?
 
 ## Küsimus
 
-Millist lippu kasutad, kui tahad muuta head käsuga vaadeldavate ridade arvu?
+Millist lippu kasutada, kui on vaja muuta head käsuga vaadeldavate ridade arvu?
 
 ## Vastus
 
