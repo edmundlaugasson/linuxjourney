@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Failis */etc/shadow* hoiatakse kasutajate tuvastamist puudutavat informatsiooni. Lugemiseks on vaja juurkasutaja õigusi.
+Failis */etc/shadow* hoiatakse kasutajate tuvastamist puudutavat informatsiooni.Selle faili lugemiseks on vaja juurkasutaja õigusi.
 
 <pre>$ sudo cat /etc/shadow
 
@@ -13,7 +13,7 @@ Võib märgata, et sisu on */etc/passwd* omale väga sarnane. Küll aga on salas
 
 <ol>
 <li>Krüpteeritud salasõna</li>
-<li>Viimane salasõna muutmise kuupäev - väärtus on päevades alates 1. jaanuaris 1970. Kui selle koha peal on 0, peaks kasutaja järgmisel sisenemisel salasõna ära muutma</li>
+<li>Viimane salasõna muutmise kuupäev - väärtus on päevades alates 1. jaanuaris 1970.(Mõelge, millele see kuupäev võiks viidata?) Kui selle koha peal on 0, peaks kasutaja järgmisel sisenemisel salasõna ära muutma</li>
 <li>Minimaalne salasõna vanus - päevade arv, mida kasutaja peab ootama enne kui võib salasõna muuta</li>
 <li>Maksimaalne salasõna vanus - maksimaalne päevade arv, kuni peab salasõna muutma</li>
 <li>Salasõna hoiatuse periood - päevade arv, mis on jäänud salasõna aegumiseni</li>
@@ -26,7 +26,7 @@ Paljudes distributsioonides ei sõltu kasutajate tuvastamine enam ainult */etc/s
 
 ## Harjutus
 
-Vaadata */etc/shadow* faili sisse.
+Vaadake */etc/shadow* faili sisse.
 
 ## Küsimus
 
