@@ -24,7 +24,7 @@ Küsitakse millise nimega faili soovitakse avada. Kui olemasolevat faili ei eksi
 
 ## Harjutus
 
-Proovi failide avamist ja salvestamist.
+Proovige failide avamist ja salvestamist.
 
 ## Küsimus
 
