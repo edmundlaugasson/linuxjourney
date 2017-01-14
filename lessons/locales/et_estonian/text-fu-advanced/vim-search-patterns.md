@@ -25,7 +25,7 @@ leiab tekstifailist sõnad kaunis tagurpidi järjekorras.
 
 ## Harjutus
 
-Mängi natuke otsinguga. Ava vim'iga tekstifail: vim [tekstifail] ja asu otsima!
+MKatsetage erinevaid otsingumeetodeid. Avage vim'iga tekstifail: vim [tekstifail] ja asu otsima!
 
 ## Küsimus
 
