@@ -26,7 +26,7 @@ See käsk võimaldab sul vaadata mitut puhvrit ühel kuval. Nende puhvrite vahel
 
 <pre>C-x 1</pre>
 
-Kui oled kunagi kasutanud terminali multiplekserit nagu screen ja tmux, siis tunduvad need puhvri käsud väga tuttavad.
+Kui oled kunagi kasutanud terminali multipleksorit, nagu screen ja tmux, siis tunduvad need puhvri käsud väga tuttavad.
 
 ## Harjutus
 
