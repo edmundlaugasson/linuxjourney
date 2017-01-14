@@ -2,15 +2,15 @@
 
 ## Tunni sisu
 
-Sarnaselt head käsuga, laseb *tail* käsk vaadata vaikimisi etteantud faili viimast 10 rida.
+Sarnaselt *head* käsuga, laseb käsk *tail* vaadata vaikimisi etteantud faili viimast 10 rida.
 
 <pre>$ tail /var/log/syslog</pre>
 
-Just nagu head puhulgi saab muuta, mitu rida kuvatakse.
+JSamuti nagu head puhul saab muuta, mitut rida kuvatakse.
 
 <pre>$ tail -n 10 /var/log/syslog</pre>
 
-Teine hea variant on kasutada *-f* (*follow* ehk järgi) lippu. See jälgib faili jooksvalt, kui see peaks kasvama. Proovida ja vaadata, mis juhtub.
+Teine hea variant on kasutada *-f* (*follow* ehk järgi) lippu. See jälgib faili jooksvalt ajas, kui see peaks kasvama. Proovige ja vaadake, mis juhtub.
 
 <pre>$ tail -f /var/log/syslog</pre>
 
@@ -18,7 +18,7 @@ Kui süsteemi aktiivselt kasutada, muutub *syslog* fail pidevalt. *tail -f* käs
 
 ## Harjutus
 
-Vaadata tail käsu *man* lehekülge ja uurida mõne käsu kohta, mida me ei tutvustanud.
+Vaadake tail käsu *man* lehekülge ja uurige mõne käsu kohta, mida me ei tutvustanud.
 
 <pre>$ man tail</pre>
 
