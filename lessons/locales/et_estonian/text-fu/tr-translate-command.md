@@ -12,7 +12,7 @@ Nagu näha siis muudeti vahemik *a-z* vahemikuks *A-Z* ja kogu väikesetäheline
 
 ## Harjutus
 
-Proovige järgnevaid käske, vajutades rea lõpus ka Enter. Mis juhtub?
+Proovige järgnevat käsku, vajutades rea lõpus ka Enter. Mis juhtub? Ehk on seletus vastaval man-leheküljel...
 
 <pre>$ tr -d allo
 hallo</pre>
