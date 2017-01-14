@@ -2,15 +2,15 @@
 
 ## Tunni sisu
 
-Emacs on mõeldud kasutajatele, kes soovivad eriti võimsat tekstiredaktorit. Kogu koodi redigeerimine, failide haldamine jpm saab ära teha emacs'iga. See käivitub pisut aeglasemalt ja õppida on alguses natuke raskem kui vim'i, kuid kui soovid võimsat redaktorit, mis on äärmiselt laiendatav, siis on see just sinu jaoks. Kui ma ütlen laiendatav, siis ma mõtlen tõesti, et sa saad kirjutada emacs'ile skripte, et selle funktsionaalsust suurendada.
+Emacs on mõeldud kasutajatele, kes soovivad eriti võimsat tekstiredaktorit. Kogu koodi redigeerimise, failide haldamise, jpm saab ära teha emacs'iga. See käivitub pisut aeglasemalt ja õppida on alguses natuke raskem kui vim'i, kuid kui soovida võimsat redaktorit, mis on vajadusel laiendatav, siis on see just õige valik. "Laiendatav" tähendab seda, et kasutaja saab ise  kirjutada emacs'ile skripte, et selle funktsionaalsust suurendada.
 
-Et emacs'i käivitada, kasuta:
+Et emacs-i käivitada, sisestage:
 
 <pre>emacs</pre>
 
-Sind peaks vaikimisi võtma vastu tervituspuhver. 
+Reaktsioonina avaneb emacs-i tervituspuhver. 
 
-Emacsis asubki sinu tekst puhvrites. Seega, kui avad faili, hoitakse selle sisu puhvris. Sul võib olla üheaegselt avatud mitu puhvrit ning nende vahel saab hõlpsasti liikuda.
+Emacsis asubki tekst puhvrites. Seega, kui avada fail, hoitakse selle sisu puhvris. Samaaegselt saab hoida avatuna mitu puhvrit ning nende vahel saab hõlpsasti liikuda.
 
 ## Harjutus
 
