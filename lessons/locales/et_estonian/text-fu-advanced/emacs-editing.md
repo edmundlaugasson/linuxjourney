@@ -25,7 +25,7 @@ C-y : kleebi
 
 ## Harjutus
 
-Tutvu tekstis liikumisega.
+Tutvuge tekstis liikumise võimalustega. Kasutage neid.
 
 ## Küsimus
 
