@@ -24,11 +24,11 @@ Põhimõtteliselt annab see käsk endast parima, et võtta tagasi muudatused mid
 
 <pre>$ passwd peeter</pre>
 
-Selle käsuga saab muuta enda või mõne teise kasutaja salasõna (muidugi juhul kui oled juurkasutaja).
+Selle käsuga saab muuta enda või mõne teise kasutaja salasõna (muidugi juhul, kui oled juurkasutaja).
 
 ## Harjutus
 
-Luua uus kasutaja, muuta tema salasõna ja siis selle kasutajana sisse logida.
+Looge uus kasutaja, muutke tema salasõna ja siis proovige selle kasutajana sisse logida. (Sisiuliselt toimub kasutaja vahetamine.)
 
 ## Küsimus
 
