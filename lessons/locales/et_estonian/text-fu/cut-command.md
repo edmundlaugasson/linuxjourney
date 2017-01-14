@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Õpime mõned kasulikud tekstitöötlemise käsud. Alustuseks loome faili, millega hakkame tegelema. Kopeerida ja kleepida järgmine käsk. Lisada tabulaator laisa ja koera vahele (hoia all Ctrl-v + TAB).
+Õpime mõned kasulikud tekstitöötlemise käsud. Alustuseks loome faili, millega hakkame tegelema. Kopeerige ja kleepige järgmine käsk. Lisage tabulaator "laisa" ja "koera" vahele (hoia all Ctrl-v + TAB).
 
 <pre>$ echo 'Kiire pruun; rebane hüppas üle laisa  koera' > näide.txt</pre>
 
@@ -18,7 +18,7 @@ Et eraldada sisu failipõhiselt, tuleb natuke muudatusi sisse viia:
 
 <pre>$ cut -f 2 näide.txt</pre>
 
--f või siis väljalipp, lõikab teksti põhinedes väljadele. Vaikimisi kasutab see eraldajana tabulaatorit, mis tähendab, et kõik, mida eraldab tabulaator, peetakse omaette väljaks. Väljundina peaks nägema "koera".
+-f, väljalipp, lõikab teksti põhinedes väljadele. Vaikimisi kasutab see eraldajana tabulaatorit, mis tähendab, et kõik, mida eraldab tabulaator, peetakse omaette väljaks. Väljundina peaks nägema "koera".
 
 <pre>$ cut -f 1 -d ";" sample.txt</pre>
 
