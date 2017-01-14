@@ -2,7 +2,7 @@
 
 ## Tunni sisu
 
-Kasutajate haldamiseks kasutatakse veel ühte faili. */etc/group* võimaldab erinevate õigustega gruppe.
+Kasutajate haldamiseks kasutatakse veel ühte faili. */etc/group* võimaldab erinevate õigustega kasutajagruppe.
 
 <pre>$ cat /etc/group
 
@@ -20,7 +20,7 @@ Sarnaselt */etc/shadow* failile, on */etc/group* väljad järgmised:
 
 ## Harjutus
 
-Käivitada käsk <b>*groups*</b>. Mida kuvatakse?
+Käivitage käsk <b>*groups*</b>. Mida kuvatakse?
 
 ## Küsimus
 
