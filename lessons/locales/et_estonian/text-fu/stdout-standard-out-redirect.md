@@ -6,19 +6,19 @@ Praeguseks oleme juba päris paljude käskude ja nende väljunditega tuttavaks s
 
 <pre>$ echo Hello World > pähklid.txt</pre>
 
-Mis just praegu juhtus? Aga mine kontrolli seda kataloogi, kus käsk käivitati ja pane end valmis, sest peaksid sealt leidma faili nimega *pähklid.txt*. Kui sinna sisse vaadata, siis peaksid leidma teksti *Hello World*. Selle ühe käsuga juhtus päris palju, vaatame seda jupphaaval.
+Mis juhtus? Kontrollige seda kataloogi, kus käsk käivitati ja olge valmis valmis selleks, et sealt leida fail nimega *pähklid.txt*. Kui sinna sisse vaadata, siis peaks seal leiduma tekst *Hello World*. Selle ühe käsuga toimus mitu tegevust, vaatame neid lähemalt.
 
 Vaatame esimest osa:
 
 <pre>$ echo Hello World</pre>
 
-Me teame, et see trükib ekraanile *Hello World*, aga kuidas? Protsessid kasutavad sisend-väljund voogusid, et võtta vastu sisendandmeid ja väljastada väljundeid. Vaikimisi võtab *echo* käsk sisendi (standard sisend või *stdin*) klaviatuurilt ja tagastab väljundi (standardväljund või *stdout*) ekraanile. Seepärast kuvatakse ekraanile *Hello World* kui sisestada käsureale *echo Hello World*. Sisendi-väljundi ümbersuunamisega saame aga seda vaikimisi käitumist muuta, see annab meile failide osas suurema paindlikuse.
+Me teame, et see trükib terminali (ekraanile) *Hello World*, aga kuidas? Protsessid kasutavad sisend-väljund voogusid, et võtta vastu sisendandmeid ja väljastada väljundeid. Vaikimisi võtab *echo* käsk sisendi (standardsisend ehk *stdin*) klaviatuurilt ja tagastab väljundi (standardväljund ehk *stdout*) ekraanile. Seepärast kuvatakse ekraanile *Hello World*, kui sisestada käsureale *echo Hello World*. Sisendi-väljundi ümbersuunamisega saame aga seda vaikimisi käitumist muuta, see annab meile failide osas suurema paindlikuse.
 
 Vaatame, mis käsuga edasi juhtus:
 
 <pre> > </pre>
 
-*>* on ümbersuunamise operaator, mis laseb meil muuta seda, kuhu suunatakse standardväljund. See lubab meil suunata *echo Hello Worldi* väljundi ekraani asemel faili. Kui sellist faili veel olemas ei ole, siis see luuakse. Kui see aga on olemas siis kirjutatakse see üle (olenevalt kestast saab lisada käsule lipu, et sellist olukorda vältida).
+*>* on ümbersuunamise operaator, mis laseb meil muuta seda, kuhu suunatakse standardväljund. See lubab meil suunata *echo Hello Worldi* väljundi ekraani asemel faili. Kui sellist faili veel olemas ei ole, siis kohe see samas ka luuakse. Kui see aga on juba olemas, siis kirjutatakse see üle ja senine sisu kaob jäjetult. (olenevalt kestast saab lisada käsule lipu, et sellist olukorda vältida).
 
 Ja nii põhimõtteliselt *stdout* ümbersuunamine töötabki!
 
@@ -32,7 +32,7 @@ See lisab *Hello Worldi pähklid.txt* faili lõppu. Kui aga faili eelnevalt ei e
 
 ## Harjutus
 
-Proovida paari käsku:
+Proovige neid käske:
 
 <pre>
 $ ls -l /var/log > minuväljund.txt
