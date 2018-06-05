@@ -9,8 +9,7 @@ Nüüd kui kogu see igav värk on selja taga, räägime parem tuuma paigaldamise
 * https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack
 * https://askubuntu.com/questions/248914/what-is-hardware-enablement-hwe
 
-Et tuvastada süsteemi tuuma versioon, kasuta käsku:
-
+Süsteemi tuuma versiooni tuvastamine:
 <pre>$ uname -r
 3.19.0-43-generic</pre>
 
