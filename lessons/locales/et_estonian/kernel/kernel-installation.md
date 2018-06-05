@@ -4,6 +4,11 @@
 
 Nüüd kui kogu see igav värk on selja taga, räägime parem tuuma paigaldamisest ja muutmisest. Süsteemi võib paigaldada mitu tuuma. On veel meeles peatükk alglaadimisest? Alglaaduri GRUB menüüst saab valida, millise tuumaga süsteem käivitada. Vaikimisi käivitatakse kõige uuem kui peale tuuma paigaldamist on ka alglaadur uuendatud.<br><br>
 
+Üldiselt uuendatakse Linuxi tuuma koos süsteemiga ja käsitsi seda ette ei võeta. Seda mitmel põhjusel: distro varamus olevad versioonid on paremini testitud ja kontrollitud ning seetõttu sobivamad missioonikriitilistesse kohtadesse. Tuuma versioonist sõltuvad ka mitmed juhtprogrammid, sh näiteks VirtualBox, mis ei pruugi alati uusima tuumaga kohe toimida. Siiski võib tuuma uuendamise vajadus tekkida, et lisada tuge uusimale riistvarale või lahendamaks mõnda muud väljakutset. Ühte aga tuleb meeles pidada - kui uuendatakse käsitsi tuuma siis jäädakse seda ka edaspidi tegema. Mõne üksiku masina puhul on see mõeldav kuid suurema hulga masinate puhul võib see liiga mahukaks osutuda. Kuigi paigaldamise võib ära suuta automatiseerida siis võimalike probleemidega tegelemine võib üle pea kasvada. Kõik sõltub konkreetsest olukorrast kuid üldiselt on soovitav jääda uusima tuuma juurde, mida konkreetse Linuxi distributsiooni varamu pakub. Ubuntu puhul kui soovitakse siis võib ka varamust leida uuemaid versioone, need on sageli tähistatud lühendiga HWE - _Hardware Enablement Stack_, mille kohta leiab lisalugemist:
+* https://wiki.ubuntu.com/Kernel/LTSEnablementStack
+* https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack
+* https://askubuntu.com/questions/248914/what-is-hardware-enablement-hwe
+
 Et tuvastada süsteemi tuuma versioon, kasuta käsku:
 
 <pre>$ uname -r
