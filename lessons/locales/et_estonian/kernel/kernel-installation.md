@@ -157,12 +157,14 @@ cd /home/kasutaja/Allalaadimised/tuum/ && sudo dpkg -i * && sudo update-grub && 
 Seejärel tuleks eemaldada vanad tuumad, millest eespool ka juttu oli. Kui vanade tuumade eemaldamisel sõltuvusena eemaldatakse ka pakett *linux-generic* siis selles ei ole midagi halba ja selle võib eemaldada, isegi enne eemaldamist märkida täielikuks eemaldamiseks (käsurealt *sudo apt purge linux-generic*).<br>
 
 <p>Uudiseid Linuxi tuumaga seoses</p>
-* https://www.kernel.org/
-* https://lwn.net/Kernel/
-* https://lkml.org/ - postiloend
-* http://www.phoronix.com/scan.php?page=news_topic&q=Linux+Kernel
-* https://www.reddit.com/r/kernel/
-* https://kernelnewbies.org/
+<ol>
+<li> https://www.kernel.org/</li>
+<li> https://lwn.net/Kernel/</li>
+<li> https://lkml.org/ - postiloend</li>
+<li> http://www.phoronix.com/scan.php?page=news_topic&q=Linux+Kernel</li>
+<li> https://www.reddit.com/r/kernel/</li>
+<li> https://kernelnewbies.org/</li>
+</ol>
 
 ## Harjutus
 
