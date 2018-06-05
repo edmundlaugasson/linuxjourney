@@ -155,6 +155,21 @@ cd /home/kasutaja/Allalaadimised/tuum/ && sudo dpkg -i * && sudo update-grub && 
 
 Seejärel tuleks eemaldada vanad tuumad, millest eespool ka juttu oli. Kui vanade tuumade eemaldamisel sõltuvusena eemaldatakse ka pakett *linux-generic* siis selles ei ole midagi halba ja selle võib eemaldada, isegi enne eemaldamist märkida täielikuks eemaldamiseks (käsurealt *sudo apt purge linux-generic*).<br>
 
+On olemas ka mõningaid tuuma haldusvahendeid:
+
+Ukuu - Ubuntu Kernel Upgrade Utility
+<ol>
+  <li>GitHub https://github.com/teejee2008/ukuu</li>
+  <li>PPA https://launchpad.net/~teejee2008/+archive/ubuntu/ppa</li>
+  <li>http://www.omgubuntu.co.uk/2017/02/ukuu-easy-way-to-install-mainline-kernel-ubuntu</li>
+</ol>
+
+UKTools - Ubuntu Kernel Tools
+<ol>
+  <li>https://github.com/usbkey9/uktools</li>
+  <li>https://www.2daygeek.com/uktools-easy-way-to-install-latest-stable-linux-kernel-on-ubuntu-mint-and-derivatives/</li>
+</ol>
+
 <p>Uudiseid Linuxi tuumaga seoses</p>
 <ol>
 <li> https://www.kernel.org/</li>
