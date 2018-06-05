@@ -170,6 +170,8 @@ UKTools - Ubuntu Kernel Tools
   <li>https://www.2daygeek.com/uktools-easy-way-to-install-latest-stable-linux-kernel-on-ubuntu-mint-and-derivatives/</li>
 </ol>
 
+Lisalugemist kuidas Linuxi tuuma versiooni tuvastada https://www.2daygeek.com/check-find-determine-running-installed-linux-kernel-version/
+
 <p>Uudiseid Linuxi tuumaga seoses</p>
 <ol>
 <li> https://www.kernel.org/</li>
