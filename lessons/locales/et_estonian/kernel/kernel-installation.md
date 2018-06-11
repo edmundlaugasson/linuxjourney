@@ -9,6 +9,7 @@ Nüüd kui kogu see igav värk on selja taga, räägime parem tuuma paigaldamise
 * https://wiki.ubuntu.com/Kernel/RollingLTSEnablementStack
 * https://askubuntu.com/questions/248914/what-is-hardware-enablement-hwe
 * http://people.canonical.com/~kernel/info/kernel-version-map.html - Ubuntu tuumade vastavused Linuxi tuumaga
+* https://askubuntu.com/questions/1039201/why-ubuntu-stopped-publishing-signed-linux-kernel-images-since-4-16-4/1039369
 
 Süsteemi tuuma versiooni tuvastamine:
 <pre>$ uname -r
