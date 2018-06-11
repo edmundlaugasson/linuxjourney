@@ -10,6 +10,8 @@ Nüüd kui kogu see igav värk on selja taga, räägime parem tuuma paigaldamise
 * https://askubuntu.com/questions/248914/what-is-hardware-enablement-hwe
 * http://people.canonical.com/~kernel/info/kernel-version-map.html - Ubuntu tuumade vastavused Linuxi tuumaga
 * https://askubuntu.com/questions/1039201/why-ubuntu-stopped-publishing-signed-linux-kernel-images-since-4-16-4/1039369
+* https://askubuntu.com/questions/119080/how-to-update-kernel-to-the-latest-mainline-version-without-any-distro-upgrade
+* https://wiki.ubuntu.com/Kernel/MainlineBuilds
 
 Süsteemi tuuma versiooni tuvastamine:
 <pre>$ uname -r
