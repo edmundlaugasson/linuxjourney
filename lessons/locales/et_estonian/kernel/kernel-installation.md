@@ -33,6 +33,7 @@ sudo apt search linux-headers-generic-lts
 
 Ubuntu 18.04 LTS puhul:
 <pre>
+sudo apt search linux-modules
 sudo apt search linux-image-generic
 sudo apt search linux-headers-generic
 </pre>
