@@ -69,13 +69,13 @@ Kui uusim LTS-versiooni tuum paigaldatud, alglaadur uuendatud, süsteem taaskäi
 
 Vaatame esmalt, millised tuumad on paigaldatud:
 <pre>
-dpkg --get-selections | grep linux-modules<br>  (Ubuntu 18.04 ja uuemad)
+dpkg --get-selections | grep linux-modules<br> (Ubuntu 18.04 ja uuemad)
 dpkg --get-selections | grep linux-image<br>
 dpkg --get-selections | grep linux-headers
 </pre>
 või ka
 <pre>
-dpkg -l | grep linux-modules<br>  (Ubuntu 18.04 ja uuemad)
+dpkg -l | grep linux-modules<br> (Ubuntu 18.04 ja uuemad)
 dpkg -l | grep linux-image<br>
 dpkg -l | grep linux-headers
 </pre><br>
@@ -110,7 +110,7 @@ Kui ei ole võimalik rakenduse byobu'ga kaasatulevat mugavat võimalust vanade t
 Paketihaldusest otsime paigaldatud tuumi ja nende päiseid:<br>
 1.variant (paigaldatud pakettide tuvastamine):
 <pre>
-dpkg-query -l 'linux-modules*' | grep '^ii'  (Ubuntu 18.04 ja uuemad)
+dpkg-query -l 'linux-modules*' | grep '^ii' (Ubuntu 18.04 ja uuemad)
 dpkg-query -l 'linux-image*' | grep '^ii'
 dpkg-query -l 'linux-header*' | grep '^ii'
 </pre>
@@ -120,7 +120,7 @@ dpkg-query -l 'linux-*' | grep '^ii'
 </pre>
 Graafiliselt tööjaamas sama otsing:<br>
 otsida (CTRL+F) Synaptic'uga pakette:<br>
-<li> <i>linux-modules</i></li>  (Ubuntu 18.04 ja uuemad)
+<li> <i>linux-modules</i></li> (Ubuntu 18.04 ja uuemad)
 <li> <i>linux-image</i></li>
 <li> <i>linux-header</i></li>
 .. ja täielikult eemaldada (<i>SHIFT+Delete</i>) siis need, mis on vanemad ja millelt masin ei tööta. Synaptic'us saab pakette märkida CTRL-klahvi all hoides. Täielikuks pakettide eemaldamiseks Synaptic'us klahvikombinatsioon <i>SHIFT+Delete</i> või menüüs <i>Paketid->Märgi täielikuks eemaldamiseks</i>.
@@ -152,6 +152,7 @@ sudo apt update && sudo apt-get -y install synaptic && sudo apt clean
 <br>
 2.variant paigaldatud tuumade ja päiste otsimiseks
 <pre>
+sudo dpkg --get-selections | grep linux-modules<br> (Ubuntu 18.04 ja uuemad)
 sudo dpkg --get-selections | grep linux-image<br>
 sudo dpkg --get-selections | grep linux-header
 </pre>
