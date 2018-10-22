@@ -169,21 +169,23 @@ Alla saab laadida näiteks esmalt soovitud kausta sisenedes <i>cd /home/kasutaja
 <b>linux-headers</b>-VERSIOONINUMBER_VERSIOONINUMBER.LOOMISE-AEG_<b>all</b>.deb
 <b>linux-headers</b>-VERSIOONINUMBER-generic_VERSIOONINUMBER.LOOMISE-AEG_<b>i386</b>.deb
 <b>linux-image</b>-VERSIOONINUMBER-generic_VERSIOONINUMBER.LOOMISE-AEG_<b>i386</b>.deb
+<b>linux-modules</b>-VERSIOONINUMBER-generic_VERSIOONINUMBER.LOOMISE-AEG_<b>i386</b>.deb
 </pre>
 
 Kui on saadaval siis võib võtta ka *<b>linux-image-extra</b>-VERSIOONINUMBER_<b>i386 või amd64</b>.deb*<br><br>
-Tuumad, mille nimes on *lowlatency* on reaalaja tuumad ja mõeldud teistsugustele süsteemidele kus vaja väga kiiret reageerimist, mida kasutatakse näiteks helitöötluses, arvutijuhitavate tööpinkide juhtimiseks jne. Seal on saadaval veel ka teistele riistvara arhitektuuridele tuumi (*arm*, *ppc* jne).<br><br>
+Tuumad, mille nimes on *lowlatency* on reaalaja tuumad ja mõeldud teistsugustele süsteemidele kus vaja väga kiiret reageerimist, mida kasutatakse näiteks helitöötluses, arvutijuhitavate tööpinkide juhtimiseks jne. Seal on saadaval veel ka teistele riistvara arhitektuuridele tuumi (*arm*, *ppc* jne).Vanematel tuumade versioonidel eraldi moodulite faili ei ole.<br><br>
 <b>64-bit</b> süsteemi korral tuleb alla laadida:<br>
 <pre>
 <b>linux-headers</b>-VERSIOONINUMBER_VERSIOONINUMBER.LOOMISE-AEG_<b>all</b>.deb
 <b>linux-headers</b>-VERSIOONINUMBER-generic_VERSIOONINUMBER.LOOMISE-AEG_<b>amd64</b>.deb
 <b>linux-image</b>-VERSIOONINUMBER-generic_VERSIOONINUMBER.LOOMISE-AEG_<b>amd64</b>.deb
+<b>linux-modules</b>-VERSIOONINUMBER-generic_VERSIOONINUMBER.LOOMISE-AEG_<b>amd64</b>.deb
 </pre>
 
-Enne paigaldamist tuleb ka veenduda, et kataloogis */home/kasutaja/Allalaadimised/tuum/* ei ole muid mittevajalikke *.deb* faile ega ka vanu, juba paigaldatud tuumade ja päiste faile - kui on siis need tuleks enne järgmise paigalduskäsu käivitamist sealt kataloogist kustutada.<br><br>
+Enne paigaldamist tuleb ka veenduda, et kataloogis */home/kasutaja/Allalaadimised/tuum/* ei ole muid mittevajalikke *.deb* faile ega ka vanu, juba paigaldatud tuumade ja päiste faile - kui on siis need tuleks enne järgmise paigalduskäsu käivitamist sealt kataloogist tõsta teise kataloogi või ka kustutada.<br><br>
 Allalaaditud tuuma- ja päisefailide paigaldamiseks, alglaaduri uuendamiseks ja süsteemi taaskäivitamiseks:
 <pre>
-cd /home/kasutaja/Allalaadimised/tuum/ && sudo dpkg -i * && sudo update-grub && sudo reboot
+cd /home/kasutaja/Allalaadimised/tuum/ && sudo dpkg -i *.deb && sudo update-grub && sudo reboot
 </pre>
 
 Seejärel tuleks eemaldada vanad tuumad, millest eespool ka juttu oli. Kui vanade tuumade eemaldamisel sõltuvusena eemaldatakse ka pakett *linux-generic* siis selles ei ole midagi halba ja selle võib eemaldada, isegi enne eemaldamist märkida täielikuks eemaldamiseks (käsurealt *sudo apt purge linux-generic*).<br>
