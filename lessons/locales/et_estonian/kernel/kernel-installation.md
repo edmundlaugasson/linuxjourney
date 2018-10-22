@@ -68,13 +68,15 @@ Kui uusim LTS-versiooni tuum paigaldatud, alglaadur uuendatud, süsteem taaskäi
 
 Vaatame esmalt, millised tuumad on paigaldatud:
 <pre>
-$ dpkg --get-selections | grep linux-image<br>
-$ dpkg --get-selections | grep linux-headers
+dpkg --get-selections | grep linux-modules<br>  (Ubuntu 18.04 ja uuemad)
+dpkg --get-selections | grep linux-image<br>
+dpkg --get-selections | grep linux-headers
 </pre>
 või ka
 <pre>
-$ dpkg -l | grep linux-image<br>
-$ dpkg -l | grep linux-headers
+dpkg -l | grep linux-modules<br>  (Ubuntu 18.04 ja uuemad)
+dpkg -l | grep linux-image<br>
+dpkg -l | grep linux-headers
 </pre><br>
 Paigaldatud tuumi, päiseid näeb ka kui vaadata kataloogi <i>ls -l /boot</i> - tuum on nimega <i>vmlinuz</i> ja teised sama versiooninumbriga failid moodustavadki tuuma komplekti koos päise ja kõige muu juurdekuuluvaga.<br><br>
 RPM-põhistes Linuxites näeb paigaldatud tuumi käsuga <i>rpm -q kernel</i><br><br>
