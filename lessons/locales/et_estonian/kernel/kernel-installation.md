@@ -14,7 +14,7 @@ Nüüd kui kogu see igav värk on selja taga, räägime parem tuuma paigaldamise
 * https://wiki.ubuntu.com/Kernel/MainlineBuilds
 
 Süsteemi tuuma versiooni tuvastamine:
-<pre>$ uname -r
+<pre>uname -r
 3.19.0-43-generic</pre>
 
 <i>Uname</i> käsk kuvab süsteemi informatsiooni, <i>-r</i> kuvab tuuma väljalaskeversiooni.<br><br>
@@ -27,8 +27,14 @@ On olemas palju erinevaid tuuma versioone, näiteks LTS (<i>Long Term Support</i
 
 Mõistlik on otsida uusimad LTS-versiooni metapaketid ja paigaldada need - siis süsteemi uuendamise (<i>dist-upgrade</i>) käigus uuendatakse alati uusima versiooni pikaajalise toega (LTS) tuuma peale:
 <pre>
-$ sudo apt search linux-image-generic-lts
-$ sudo apt search linux-headers-generic-lts
+sudo apt search linux-image-generic-lts
+sudo apt search linux-headers-generic-lts
+</pre>
+
+Ubuntu 18.04 LTS puhul:
+<pre>
+sudo apt search linux-image-generic
+sudo apt search linux-headers-generic
 </pre>
 
 LTS-versioonid tulevad välja 2 aasta tagant aprillikuu lõpus. Need on rohkem testitud ja sobivad paremini ka missioonikriitilistes kohtades kasutamiseks.<br><br>
@@ -47,7 +53,7 @@ lsb_release -cd
 Seda näeb veel ka näiteks *cat /etc/lsb-release* abil.
 
 Linuxi tuuma ja päise metapakettide paigaldamine, siin näiteks Ubuntu 16.04 LTS Xenial Xerus:<br>
-<pre>$ sudo apt install linux-image-generic-lts-xenial linux-headers-generic-lts-xenial linux-image-generic linux-headers-generic && sudo apt clean && sudo update-grub</pre>
+<pre>sudo apt install linux-image-generic-lts-xenial linux-headers-generic-lts-xenial linux-image-generic linux-headers-generic && sudo apt clean && sudo update-grub</pre>
 
 Seejärel arvuti taaskäivitada värskelt paigaldatud tuumaga (sudo reboot). On ju lihtne? Täpsustada saab ka versiooninumbrit, metapakettide asemel võib paigaldada ka konkreetsed versioonid kuigi see ei ole kõige parem mõte kuna sõltub konkreetsest tuuma ja selle päise versioonist, mis ei uuene ja seetõttu on kavalam on paigaldada eespool kirjeldatud automaatselt uuenevad metapaketid.<br><br>
 Linuxi tuum uueneb pidevalt ja sellega kaasneb parem riistvara tugi, vigade parandused ja seeläbi ka parem turvalisus, kogu süsteemi parem töötamine. Seetõttu on oluline kasutada võimalikult uusimat tuuma ja vanad eemaldada.<br><br>
@@ -101,11 +107,17 @@ Kui ei ole võimalik rakenduse byobu'ga kaasatulevat mugavat võimalust vanade t
 Paketihaldusest otsime paigaldatud tuumi ja nende päiseid:<br>
 1.variant (paigaldatud pakettide tuvastamine):
 <pre>
+dpkg-query -l 'linux-modules*' | grep '^ii'  (Ubuntu 18.04 ja uuemad)
 dpkg-query -l 'linux-image*' | grep '^ii'
 dpkg-query -l 'linux-header*' | grep '^ii'
 </pre>
+või ka:
+<pre>
+dpkg-query -l 'linux-*' | grep '^ii'
+</pre>
 Graafiliselt tööjaamas sama otsing:<br>
 otsida (CTRL+F) Synaptic'uga pakette:<br>
+<li> <i>linux-modules</i></li>  (Ubuntu 18.04 ja uuemad)
 <li> <i>linux-image</i></li>
 <li> <i>linux-header</i></li>
 .. ja täielikult eemaldada (<i>SHIFT+Delete</i>) siis need, mis on vanemad ja millelt masin ei tööta. Synaptic'us saab pakette märkida CTRL-klahvi all hoides. Täielikuks pakettide eemaldamiseks Synaptic'us klahvikombinatsioon <i>SHIFT+Delete</i> või menüüs <i>Paketid->Märgi täielikuks eemaldamiseks</i>.
@@ -116,6 +128,19 @@ sudo apt purge pakk1 pakk2.....pakk n
 </pre>
 
 **NB! Enne eemaldamist veenduda _uname -r_ abil, milliselt tuuma versioonilt masin töötab.**
+
+Kui on kindel, et masin töötab uusima pealt - alles siis võib vana(d) tuuma(d) eemaldada. Kui siiski juhtub, et eemaldatakse kõik tuumad siis enne kui masin sulgetakse või taaskäivitatakse, tuleb uusim tuum siiski paigaldada.
+
+Tuumade eemaldamiseks käsitsi Ubuntu 18.04 LTS ja uuem + sellel baseeruvad distrod (asendada näites toodud tuuma versioon sobivaga):
+<pre>
+sudo apt purge linux-modules-4.15.0-36-generic linux-image-4.15.0-36-generic linux-headers-4.15.0-36* -y && sudo update-grub && sudo rm -fr /lib/modules/4.15.0-36-generic
+</pre>
+
+Viimane seetõttu, et tuuma ja selle komponentide eemaldamisel tuli hoiatav teade:
+<pre>while removing linux-modules-4.15.0-36-generic, directory '/lib/modules/4.15.0-36-generic' not empty so not removed</pre>
+... seda kataloogi ei ole vaja alles hoida kuna sellega seotud tuuma versioon on juba eemaldatud.
+
+Ubuntu 18.04 LTS puhul tuli juurde moodulite eemaldamine, mida varasemate Ubuntu versioonide puhul ei olnud.
 
 Võib kasutada ka mõnda teist paketihaldustarkvara, soovi korral saab Synaptic'u ka paigaldada:
 <pre>
